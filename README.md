@@ -1,4 +1,4 @@
-Sound-Space
+Sonorium
 
 Content of Interactive Installation held at Casa da Música
 
