@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 973.0, 810.0 ],
+		"rect" : [ 4.0, 44.0, 845.0, 325.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -31,7 +31,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hidden" : 1,
 					"id" : "obj-26",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -53,7 +52,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 185.0, 105.0, 57.0, 18.0 ],
-					"presentation_rect" : [ 553.0, 147.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "deg2rad",
 						"parameter_enable" : 0
@@ -81,7 +79,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hidden" : 1,
 					"id" : "obj-14",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -132,8 +129,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 96.5, 215.0, 50.0, 18.0 ],
-					"presentation_rect" : [ 454.0, 507.0, 0.0, 0.0 ]
+					"patching_rect" : [ 96.5, 215.0, 50.0, 18.0 ]
 				}
 
 			}
@@ -147,7 +143,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 146.25, 215.0, 109.0, 18.0 ],
-					"presentation_rect" : [ 464.0, 457.0, 0.0, 0.0 ],
 					"text" : "width at input distance"
 				}
 
@@ -162,7 +157,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.5, 105.0, 82.0, 18.0 ],
-					"presentation_rect" : [ 463.0, 469.0, 0.0, 0.0 ],
 					"text" : "distance (depth)"
 				}
 
@@ -177,8 +171,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 96.5, 105.0, 50.0, 18.0 ],
-					"presentation_rect" : [ 443.0, 350.0, 0.0, 0.0 ]
+					"patching_rect" : [ 96.5, 105.0, 50.0, 18.0 ]
 				}
 
 			}
@@ -308,7 +301,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "deg2rad.js",
-				"bootpath" : "/Users/tiago/PinhoRepos/DigitopiaRepos/Sound-Space/patchers",
+				"bootpath" : "/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/1_development phase/perspective alignment",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
