@@ -30,14 +30,30 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 390.0, 115.0, 403.0, 31.0 ],
+					"presentation_rect" : [ 387.0, 116.5, 0.0, 0.0 ],
+					"text" : ";\rmax launchbrowser http://openkinect.org/wiki/Imaging_Information"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-26",
 					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 75.5, 337.0, 27.0 ],
+					"patching_rect" : [ 390.0, 75.5, 403.0, 31.0 ],
 					"text" : ";\rmax launchbrowser http://msdn.microsoft.com/en-us/library/jj131033.aspx"
 				}
 
@@ -85,7 +101,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 160.5, 337.0, 27.0 ],
+					"patching_rect" : [ 390.0, 156.0, 403.0, 27.0 ],
 					"text" : ";\rmax launchbrowser http://en.wikipedia.org/wiki/Triangle"
 				}
 
@@ -299,14 +315,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "deg2rad.js",
-				"bootpath" : "/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/1_development phase/perspective alignment",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ]
+		"dependency_cache" : [  ]
 	}
 
 }
