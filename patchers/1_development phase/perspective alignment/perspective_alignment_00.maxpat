@@ -51,7 +51,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 460.0, 245.0, 32.5, 16.0 ],
-					"presentation_rect" : [ 396.0, 311.0, 0.0, 0.0 ],
 					"text" : "read"
 				}
 
@@ -212,26 +211,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 759.5, 104.0, 79.0, 18.0 ],
-					"text" : "jit.gl.render"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 759.5, 79.0, 79.0, 18.0 ],
+					"patching_rect" : [ 749.5, 95.0, 79.0, 18.0 ],
 					"text" : "jit.gl.texture"
 				}
 
@@ -245,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 759.5, 129.0, 79.0, 18.0 ],
+					"patching_rect" : [ 843.5, 95.0, 79.0, 18.0 ],
 					"text" : "jit.gl.videoplane"
 				}
 
@@ -259,7 +244,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 849.5, 179.0, 27.0, 18.0 ],
+					"patching_rect" : [ 876.5, 175.0, 27.0, 18.0 ],
 					"text" : "???"
 				}
 
@@ -273,7 +258,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 759.5, 154.0, 79.0, 18.0 ],
+					"patching_rect" : [ 797.5, 136.0, 79.0, 18.0 ],
 					"text" : "jit.gl.cornerpin"
 				}
 
@@ -287,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 759.5, 179.0, 79.0, 18.0 ],
+					"patching_rect" : [ 797.5, 175.0, 79.0, 18.0 ],
 					"text" : "jit.gl.isosurf"
 				}
 
@@ -299,11 +284,12 @@
 					"fontsize" : 16.0,
 					"frgb" : 0.0,
 					"id" : "obj-20",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 318.0, 24.0 ],
-					"text" : "Testes para alinhamento da perspectiva "
+					"patching_rect" : [ 5.0, 5.0, 324.0, 42.0 ],
+					"text" : "Testes para alinhamento da perspectiva \n(2D)"
 				}
 
 			}
@@ -1196,7 +1182,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u777000109"
+									"varname" : "u609003042"
 								}
 
 							}
