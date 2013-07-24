@@ -54,7 +54,6 @@ function line_width(l) {
 
 function set_color(c) {
 	color = arrayfromargs(arguments); 
-	post(color+"\n");
 }
 
 function set_z(v) {

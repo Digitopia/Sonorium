@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 100.0, 126.0, 626.0, 338.0 ],
+						"rect" : [ 0.0, 26.0, 626.0, 338.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -132,7 +132,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 341.0, 74.0, 190.0, 21.0 ],
-									"presentation_rect" : [ 307.0, 78.0, 0.0, 0.0 ],
 									"prototypename" : "oi.help_digest",
 									"text" : "Messages to jit.gl.sketch inside"
 								}
@@ -148,7 +147,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 341.0, 200.0, 76.0, 21.0 ],
-									"presentation_rect" : [ 343.0, 213.0, 0.0, 0.0 ],
 									"text" : "jit.gl.grid2D"
 								}
 
@@ -163,7 +161,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 142.5, 110.0, 108.0, 19.0 ],
-									"presentation_rect" : [ 195.0, 185.0, 0.0, 0.0 ],
 									"text" : "sketch drawto yo"
 								}
 
@@ -205,8 +202,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 195.0, 50.0, 19.0 ],
-									"text" : "yo"
+									"patching_rect" : [ 14.0, 195.0, 50.0, 19.0 ]
 								}
 
 							}
@@ -349,7 +345,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 626.0, 338.0 ],
+						"rect" : [ 100.0, 126.0, 626.0, 338.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -394,7 +390,7 @@
 									"patching_rect" : [ 10.0, 145.0, 100.0, 40.0 ],
 									"preset_data" : [ 										{
 											"number" : 1,
-											"data" : [ 5, "obj-9", "toggle", "int", 1, 5, "obj-27", "number", "int", 10, 5, "obj-21", "number", "int", 10, 5, "obj-26", "flonum", "float", 2.0, 5, "obj-45", "flonum", "float", 0.0, 5, "obj-47", "flonum", "float", 1.0, 5, "obj-48", "flonum", "float", 0.0, 5, "obj-20", "flonum", "float", 1.0, 5, "obj-17", "flonum", "float", 1.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-18", "flonum", "float", 0.0, 5, "obj-31", "flonum", "float", 0.0 ]
+											"data" : [ 5, "obj-9", "toggle", "int", 1, 5, "obj-27", "number", "int", 10, 5, "obj-21", "number", "int", 10, 5, "obj-26", "flonum", "float", 1.0, 5, "obj-45", "flonum", "float", 0.0, 5, "obj-47", "flonum", "float", 1.0, 5, "obj-48", "flonum", "float", 0.0, 5, "obj-20", "flonum", "float", 1.0, 5, "obj-17", "flonum", "float", 1.0, 5, "obj-15", "flonum", "float", 0.0, 5, "obj-18", "flonum", "float", 0.0, 5, "obj-31", "flonum", "float", 0.0 ]
 										}
  ]
 								}
@@ -617,8 +613,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.5, 250.0, 107.0, 16.0 ],
-									"text" : "set_color $1 $2 $3 $4"
+									"patching_rect" : [ 465.5, 250.0, 93.0, 16.0 ],
+									"text" : "set_color $1 $2 $3"
 								}
 
 							}
@@ -744,8 +740,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 493.5, 135.0, 79.0, 18.0 ],
-									"text" : "jit.window grid"
+									"patching_rect" : [ 493.5, 135.0, 89.0, 18.0 ],
+									"text" : "jit.window grid_ex"
 								}
 
 							}
@@ -773,8 +769,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 493.5, 105.0, 79.0, 18.0 ],
-									"text" : "jit.gl.render grid"
+									"patching_rect" : [ 493.5, 105.0, 96.0, 18.0 ],
+									"text" : "jit.gl.render grid_ex"
 								}
 
 							}
@@ -813,8 +809,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 237.5, 300.0, 153.0, 21.0 ],
-									"text" : "name (drawto argument)"
+									"patching_rect" : [ 140.5, 300.0, 177.0, 21.0 ],
+									"text" : "<— name (drawto argument)"
 								}
 
 							}
@@ -862,22 +858,6 @@
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 10.0, 10.0, 255.0, 60.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"border" : 0,
-									"filename" : "helpargs.js",
-									"id" : "obj-4",
-									"ignoreclick" : 1,
-									"jsarguments" : [ "jit.gl.grid2D" ],
-									"maxclass" : "jsui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 142.5, 300.0, 95.0, 20.0 ]
 								}
 
 							}
@@ -1148,22 +1128,6 @@
 			}
 , 			{
 				"box" : 				{
-					"border" : 0,
-					"filename" : "helpname.js",
-					"id" : "obj-4",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "jit.gl.grid2D" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 245.093735, 53.625 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-5",
@@ -1225,20 +1189,6 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpargs.js",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
 				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
