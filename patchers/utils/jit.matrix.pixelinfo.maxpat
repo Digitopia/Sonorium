@@ -819,12 +819,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-5",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 241.0, 367.0, 171.0, 21.0 ],
-					"text" : "jit.window @floating 1"
+					"patching_rect" : [ 241.0, 367.0, 171.0, 36.0 ],
+					"text" : "jit.window @floating 1 @noaccel 1"
 				}
 
 			}
