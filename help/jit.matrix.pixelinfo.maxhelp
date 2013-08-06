@@ -71,13 +71,54 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
-									"id" : "obj-26",
-									"linecount" : 6,
+									"id" : "obj-20",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 420.0, 315.0, 168.0, 94.0 ],
-									"text" : "default arguments: \n@speedlim 0 \n@target size 20 \n@target color 0 255 0 255 \n@target position 0 0 \n@window floating 1"
+									"patching_rect" : [ 380.0, 232.0, 150.0, 36.0 ],
+									"text" : "enable/disable jit.window display"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 355.0, 240.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 355.0, 270.0, 69.0, 19.0 ],
+									"text" : "display $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-26",
+									"linecount" : 7,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 420.0, 315.0, 168.0, 108.0 ],
+									"text" : "default arguments: \n@speedlim 0 \n@target size 20 \n@target color 0 255 0 255 \n@target position 0 0 \n@window floating 1\n@display 1"
 								}
 
 							}
@@ -90,7 +131,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 395.0, 245.0, 263.0, 21.0 ],
+									"patching_rect" : [ 395.0, 202.0, 263.0, 21.0 ],
 									"text" : "use the \"lcd\" prefix to talk to the jit.lcd inside"
 								}
 
@@ -104,7 +145,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 280.0, 245.0, 115.0, 19.0 ],
+									"patching_rect" : [ 280.0, 202.0, 115.0, 19.0 ],
 									"text" : "lcd clear, lcd bang"
 								}
 
@@ -132,7 +173,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 247.0, 205.0, 83.0, 19.0 ],
+									"patching_rect" : [ 247.0, 162.0, 83.0, 19.0 ],
 									"text" : "window front"
 								}
 
@@ -147,7 +188,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 445.0, 180.0, 257.0, 36.0 ],
+									"patching_rect" : [ 445.0, 137.0, 257.0, 36.0 ],
 									"text" : "use the \"window\" prefix to talk to the  jit.window inside"
 								}
 
@@ -161,7 +202,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 231.0, 180.0, 214.0, 19.0 ],
+									"patching_rect" : [ 231.0, 137.0, 214.0, 19.0 ],
 									"text" : "window name yo, window floating 1"
 								}
 
@@ -333,8 +374,27 @@
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 364.5, 301.5, 54.5, 301.5 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"midpoints" : [ 256.5, 262.5, 54.5, 262.5 ],
 									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
 								}
 
 							}
