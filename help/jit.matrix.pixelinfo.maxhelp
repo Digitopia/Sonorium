@@ -633,7 +633,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 45.0, 305.0, 310.0, 21.0 ],
-									"text" : "jit.matrix.pixelinfo @window name jit.matrix.pixelinfo"
+									"text" : "jit.matrix.pixelinfo jit.matrix.pixelinfo"
 								}
 
 							}
