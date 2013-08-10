@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 624.0, 783.0 ],
+		"rect" : [ 112.0, 44.0, 756.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -65,7 +65,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 112.0, 70.0, 756.0, 725.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -86,6 +86,75 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 353.0, 150.0, 40.0 ],
+									"text" : "watch distortions :( "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-11",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 562.0, 327.0, 157.0, 62.0 ],
+									"text" : "This problem could be solved by  increasing the size of the matrix. But at this point I'm not sure if that is going to be benefecial it terms of cpu efficiency. "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-9",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 370.0, 240.0, 349.0, 87.0 ],
+									"text" : "This algorithm serves as an exmaple ONLY. \nBecause it doesn't care much about pixel accuracy when performing proportional calculations \n(for Sonorium, the algorithm must be super-accurate, adding \"extra\" pixels to the surrounding frame, while mainting each square area exactly the same).",
+									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "preset",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "preset", "int", "preset", "int" ],
+									"patching_rect" : [ 370.0, 335.0, 30.0, 15.0 ],
+									"preset_data" : [ 										{
+											"number" : 1,
+											"data" : [ 5, "obj-37", "flonum", "float", 0.1, 5, "obj-44", "number", "int", 10, 5, "obj-45", "number", "int", 6 ]
+										}
+, 										{
+											"number" : 2,
+											"data" : [ 5, "obj-37", "flonum", "float", 0.1, 5, "obj-44", "number", "int", 15, 5, "obj-45", "number", "int", 10 ]
+										}
+ ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -235,7 +304,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 59.5, 468.0, 66.0, 21.0 ],
+									"patching_rect" : [ 59.5, 473.0, 66.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -416,7 +485,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 59.5, 505.0, 120.0, 90.0 ]
+									"patching_rect" : [ 59.5, 505.0, 240.0, 180.0 ]
 								}
 
 							}
@@ -445,7 +514,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
-									"patching_rect" : [ 190.0, 505.0, 415.0, 185.0 ],
+									"patching_rect" : [ 310.0, 480.0, 415.0, 230.0 ],
 									"rows" : 30
 								}
 
@@ -512,6 +581,15 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-79", 0 ],
 									"disabled" : 0,
@@ -615,7 +693,7 @@
 									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 69.5, 461.5, 199.5, 461.5 ],
+									"midpoints" : [ 69.5, 461.5, 319.5, 461.5 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -730,7 +808,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 0.0, 26.0, 756.0, 725.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,

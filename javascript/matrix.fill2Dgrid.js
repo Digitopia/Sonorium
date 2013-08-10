@@ -12,9 +12,9 @@ function bang(){
 
 
 function calcThickness() {
-	x_thick = x_dim / x_size * spacing; 
+	x_thick = Math.ceil(x_dim / x_size * spacing); 
 	post("x_thick = "+x_thick+"\n");
-	y_thick = y_dim / y_size * spacing; 
+	y_thick = Math.ceil(y_dim / y_size * spacing); 
 	post("y_thick = "+y_thick+"\n");
 }  
 
@@ -34,7 +34,7 @@ function drawGrid(){
 	//draw vertical lines
 	for(var i=0; i < y_size+1; i++){ //move drawing y locator
 		y = i * (y_offset + y_thick);
-		for (var j = 0; j < y_thick.toFixed(); j++) { //fill line thickness
+		for (var j = 0; j < y_thick; j++) { //fill line thickness
 				for(var x = 0; x < x_dim; x++){ //draw singl-pixel line
 				outlet(0, "setcell "+x+" "+(y+j)+" val 0.");
 			}
@@ -44,7 +44,7 @@ function drawGrid(){
 	//draw vertical lines
 	for(var i=0; i < x_size+1; i++){ //move drawing y locator
 		x = i * (x_offset + x_thick);
-		for (var j = 0; j < x_thick.toFixed(); j++) { //fill line thickness
+		for (var j = 0; j < x_thick; j++) { //fill line thickness
 				for(var y = 0; y < y_dim; y++){ //draw singl-pixel line
 				outlet(0, "setcell "+(x+j)+" "+y+" val 0.");
 			}
