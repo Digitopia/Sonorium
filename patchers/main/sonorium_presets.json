@@ -10,7 +10,7 @@
 					"gui::bounds_src_coordinates" : [ 0, 0, 640, 480 ],
 					"gui::kinect_fov_v" : [ 43 ],
 					"gui::kinect_fov_h" : [ 57 ],
-					"gui::kinect_arc_mode" : [ 1 ],
+					"gui::kinect_arc_mode" : [ 0 ],
 					"gui::kinect_arc_fov" : [ 1 ],
 					"gui::kinect_arc_apply" : [ -1 ],
 					"gui::kinect_arc_method" : [ 0 ],
