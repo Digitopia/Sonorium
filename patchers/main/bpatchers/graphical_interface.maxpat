@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -21.0, 401.0, 1440.0, 810.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 810.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -35,9 +35,9 @@
 					"name" : "grid_setup.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 335.0, 355.0, 150.0 ],
+					"patching_rect" : [ 130.0, 335.0, 275.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1159.0, 0.0, 390.0, 162.0 ],
+					"presentation_rect" : [ 0.0, 320.0, 528.0, 155.0 ],
 					"varname" : "grid"
 				}
 
@@ -64,9 +64,9 @@
 					"name" : "data_output.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 490.0, 495.0, 145.0 ],
+					"patching_rect" : [ 130.0, 495.0, 505.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 710.0, 175.0, 495.0, 145.0 ],
+					"presentation_rect" : [ 0.0, 480.0, 528.0, 160.0 ],
 					"varname" : "output"
 				}
 
@@ -78,9 +78,9 @@
 					"name" : "capture_boundaries.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.0, 180.0, 445.0, 145.0 ],
+					"patching_rect" : [ 130.0, 175.0, 395.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 710.0, 0.0, 445.0, 145.0 ],
+					"presentation_rect" : [ 0.0, 160.0, 528.0, 159.0 ],
 					"varname" : "bounds"
 				}
 
@@ -104,9 +104,9 @@
 					"name" : "kinect_input.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 10.0, 705.0, 145.0 ],
+					"patching_rect" : [ 130.0, 10.0, 410.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 700.0, 145.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 528.0, 155.0 ],
 					"varname" : "kinect"
 				}
 
