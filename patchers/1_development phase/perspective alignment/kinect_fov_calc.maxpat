@@ -29,6 +29,24 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "Calculating the dimensions of two sides of a right triangle, given one angle (besides the right angle) and one side",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 390.0, 154.0, 403.0, 31.0 ],
+					"presentation_rect" : [ 389.0, 170.0, 0.0, 0.0 ],
+					"text" : ";\rhttp://www.mathsisfun.com/algebra/trig-finding-side-right-triangle.html"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Kinect specs found online",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
@@ -38,13 +56,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.0, 115.0, 403.0, 31.0 ],
-					"presentation_rect" : [ 387.0, 116.5, 0.0, 0.0 ],
 					"text" : ";\rmax launchbrowser http://openkinect.org/wiki/Imaging_Information"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Kinect specs found online",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
@@ -93,31 +111,17 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-14",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 156.0, 403.0, 27.0 ],
-					"text" : ";\rmax launchbrowser http://en.wikipedia.org/wiki/Triangle"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.5, 163.0, 150.0, 22.0 ],
-					"text" : "tan(ø) = opposit / adjacent"
+					"patching_rect" : [ 214.0, 159.0, 166.0, 33.0 ],
+					"text" : "tan(ø) = opposit / adjacent\n<=> opposit = tan(ø) x adjacent"
 				}
 
 			}
@@ -244,7 +248,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.5, 165.0, 121.0, 18.0 ],
+					"patching_rect" : [ 96.5, 174.0, 121.0, 18.0 ],
 					"text" : "expr ($f1 * tan($f2/2.))*2."
 				}
 
@@ -315,7 +319,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "deg2rad.js",
+				"bootpath" : "/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/javascript",
+				"patcherrelativepath" : "../../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }
