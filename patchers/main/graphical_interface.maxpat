@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 952.0, 448.0 ],
+		"rect" : [ 4.0, 44.0, 1191.0, 786.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -748,7 +748,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 285.0, 383.0, 86.0, 29.0 ],
-					"text" : "output matrix: 0 12"
+					"text" : "output matrix: 16 12"
 				}
 
 			}
@@ -807,7 +807,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 639.5, 901.5, 160.0, 18.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 16, 12 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -942,7 +942,7 @@
 					"patching_rect" : [ 910.0, 93.25, 123.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 32.0, 523.5, 63.0, 51.0 ],
+					"presentation_rect" : [ 32.0, 523.5, 64.0, 51.0 ],
 					"text" : "MAX output\n(send \"sonorium_output\")"
 				}
 
@@ -2027,7 +2027,7 @@
 					"patching_rect" : [ 416.5, 572.0, 94.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 201.0, 176.5, 182.0, 18.0 ],
-					"text" : "source coordinates: 0 0 640 480"
+					"text" : "source coordinates: 41 49 610 462"
 				}
 
 			}
@@ -2362,7 +2362,7 @@
 					"patching_rect" : [ 416.5, 756.0, 91.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 201.0, 231.5, 91.0, 18.0 ],
-					"text" : "aspect ratio: 1.33"
+					"text" : "aspect ratio: 1.38"
 				}
 
 			}
@@ -3104,7 +3104,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 96.5, 206.0, 92.5, 40.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 83.333336 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
