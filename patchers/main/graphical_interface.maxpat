@@ -1994,7 +1994,7 @@
 					"patching_rect" : [ 391.5, 811.0, 91.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 201.0, 194.5, 91.0, 18.0 ],
-					"text" : "dim: 567 411"
+					"text" : "dim: 566 411"
 				}
 
 			}
@@ -2027,7 +2027,7 @@
 					"patching_rect" : [ 416.5, 572.0, 94.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 201.0, 176.5, 182.0, 18.0 ],
-					"text" : "source coordinates: 41 49 610 462"
+					"text" : "source coordinates: 220 140 420 340"
 				}
 
 			}
@@ -2316,7 +2316,7 @@
 					"patching_rect" : [ 362.0, 890.5, 71.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 201.0, 213.5, 91.0, 18.0 ],
-					"text" : "233037.00 pixels"
+					"text" : "232626.00 pixels"
 				}
 
 			}
@@ -2540,7 +2540,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"frgb" : 0.0,
-					"hidden" : 1,
 					"id" : "obj-116",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2558,7 +2557,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"frgb" : 0.0,
-					"hidden" : 1,
 					"id" : "obj-115",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2574,7 +2572,6 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"disabled" : [ 0, 0 ],
-					"hidden" : 1,
 					"id" : "obj-113",
 					"itemtype" : 0,
 					"maxclass" : "radiogroup",
@@ -2595,7 +2592,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hidden" : 1,
 					"id" : "obj-42",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -2617,7 +2613,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
-					"hidden" : 1,
 					"id" : "obj-121",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2631,7 +2626,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-119",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -2649,7 +2643,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"hidden" : 1,
 					"id" : "obj-37",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -3079,13 +3072,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 96.5, 362.5, 164.0, 18.0 ],
+					"patching_rect" : [ 96.5, 362.5, 225.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr kinect_arc_mode @initial 0",
+					"text" : "pattr kinect_arc_mode @initial 0 @invisible 1",
 					"varname" : "kinect_arc_mode"
 				}
 
