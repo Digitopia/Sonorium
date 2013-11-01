@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 817.0, 44.0, 508.0, 645.0 ],
+		"rect" : [ 137.0, 44.0, 500.0, 638.0 ],
 		"bgcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -47,20 +47,6 @@
 					"presentation_rect" : [ 270.0, 347.0, 20.0, 20.0 ],
 					"rounded" : 64.0,
 					"text" : "(7)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-193",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1135.5, 1000.5, 37.0, 18.0 ],
-					"text" : "all = 0"
 				}
 
 			}
@@ -163,7 +149,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u987015503"
+									"varname" : "u095003792"
 								}
 
 							}
@@ -306,13 +292,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 900.0, 940.0, 287.0, 18.0 ],
+					"patching_rect" : [ 900.0, 940.0, 244.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "chromatic" ],
+						"initial" : [ 0 ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr output_sampler_y @initial chromatic @autorestore 1",
+					"text" : "pattr output_sampler_y @initial 0 @autorestore 1",
 					"varname" : "output_sampler_y"
 				}
 
@@ -454,13 +440,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 909.5, 695.0, 290.0, 18.0 ],
+					"patching_rect" : [ 909.5, 695.0, 248.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "chromatic" ],
+						"initial" : [ 1 ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr output_midi_mode @initial chromatic @autorestore 1",
+					"text" : "pattr output_midi_mode @initial 1 @autorestore 1",
 					"varname" : "output_midi_mode"
 				}
 
