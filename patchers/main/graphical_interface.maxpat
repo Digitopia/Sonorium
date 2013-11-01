@@ -149,7 +149,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u095003792"
+									"varname" : "u285007823"
 								}
 
 							}
@@ -616,13 +616,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1002.5, 166.0, 254.0, 18.0 ],
+					"patching_rect" : [ 1002.5, 166.0, 178.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 7000 ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr output_osc_port @initial 7000 @autorestore 1",
+					"text" : "pattr output_osc_port @initial 7000",
 					"varname" : "output_osc_port"
 				}
 
@@ -639,13 +639,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 890.0, 295.75, 227.0, 18.0 ],
+					"patching_rect" : [ 890.0, 295.75, 187.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
+						"initial" : [ "127.0.0.1" ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr output_osc_IP @initial 0 @autorestore 0",
+					"text" : "pattr output_osc_IP @initial 127.0.0.1",
 					"varname" : "output_osc_IP"
 				}
 
