@@ -72,7 +72,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "clear" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -82,7 +82,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 29.0, 69.0, 293.0, 283.0 ],
+						"rect" : [ 29.0, 69.0, 396.0, 274.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -125,7 +125,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 89.166672, 155.0, 48.333328, 27.0 ],
+									"patching_rect" : [ 48.333332, 160.0, 48.333328, 27.0 ],
 									"text" : "append $1"
 								}
 
@@ -137,10 +137,10 @@
 									"id" : "obj-172",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "bang", "int", "all", "clear" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "int", "clear" ],
 									"patching_rect" : [ 7.5, 80.0, 141.5, 18.0 ],
-									"text" : "t b i all clear"
+									"text" : "t b i clear"
 								}
 
 							}
@@ -156,14 +156,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 7.5, 15.0, 270.0, 18.0 ],
-									"restore" : [ 0 ],
+									"patching_rect" : [ 7.5, 15.0, 307.0, 18.0 ],
+									"restore" : [ 3 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u959005215"
+									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
+									"varname" : "u508007486"
 								}
 
 							}
@@ -190,15 +190,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-178", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-172", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-179", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -220,7 +211,7 @@
 									"destination" : [ "obj-182", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-172", 3 ]
+									"source" : [ "obj-172", 2 ]
 								}
 
 							}
@@ -1471,7 +1462,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-106",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to SONORIUM (beta-0.09) 1", ",", "to SONORIUM (beta-0.09) 2", ",", "to SONORIUM (beta-0.09) 1", ",", "to SONORIUM (beta-0.09) 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
