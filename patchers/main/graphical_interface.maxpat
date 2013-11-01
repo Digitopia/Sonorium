@@ -72,7 +72,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -163,7 +163,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u508007486"
+									"varname" : "u987015503"
 								}
 
 							}
@@ -280,7 +280,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-139",
-					"items" : [ "all", ",", 1, ",", 2, ",", 3 ],
+					"items" : [ 1, ",", 2, ",", 3 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1462,7 +1462,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-106",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to SONORIUM (beta-0.09) 1", ",", "to SONORIUM (beta-0.09) 2", ",", "to SONORIUM (beta-0.09) 1", ",", "to SONORIUM (beta-0.09) 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -3513,17 +3513,18 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-26",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 96.5, 362.5, 225.0, 18.0 ],
+					"patching_rect" : [ 96.5, 363.5, 206.25, 29.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr kinect_arc_mode @initial 0 @invisible 1",
+					"text" : "pattr kinect_arc_mode @invisible 1 @initial 0 @autorestore 1",
 					"varname" : "kinect_arc_mode"
 				}
 
