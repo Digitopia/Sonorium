@@ -29,7 +29,7 @@
 					"gui::grid_resolution" : [ 4 ],
 					"gui::grid_gain" : [ 0.6 ],
 					"gui::grid_threshold" : [ 0 ],
-					"gui::grid_slice_preview" : [ "overall" ],
+					"gui::grid_slice_preview" : [ "1" ],
 					"gui::output_max" : [ 0 ],
 					"gui::output_osc" : [ 0 ],
 					"gui::output_midi" : [ 0 ],
