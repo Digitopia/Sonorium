@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 240.0, 294.5, 46.0, 18.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hint" : "loop",
 					"id" : "obj-18",
 					"maxclass" : "toggle",
@@ -52,7 +66,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 240.5, 296.0, 15.0, 15.0 ],
+					"patching_rect" : [ 240.5, 274.0, 15.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 78.0, 12.0, 15.0, 15.0 ],
 					"varname" : "play_toggle"
@@ -125,7 +139,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 335.0, 315.0, 73.0, 18.0 ],
-					"text" : "regexp [\\\\d]"
+					"text" : "regexp (\\\\d+)"
 				}
 
 			}
@@ -669,7 +683,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -710,6 +724,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 322.5, 421.0, 234.5, 421.0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

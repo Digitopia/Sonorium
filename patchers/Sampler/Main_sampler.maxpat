@@ -182,7 +182,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_z_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u137004935"
+									"varname" : "u464006225"
 								}
 
 							}
@@ -205,7 +205,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_x_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u061004937"
+									"varname" : "u711006227"
 								}
 
 							}
@@ -228,7 +228,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u809004939"
+									"varname" : "u115006229"
 								}
 
 							}
@@ -538,7 +538,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u850004944"
+									"varname" : "u001006234"
 								}
 
 							}
@@ -823,7 +823,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u729004950"
+									"varname" : "u264006240"
 								}
 
 							}
@@ -1179,7 +1179,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::gui::grid_apply @invisible 1 @autorestore 0",
-					"varname" : "u006004957"
+					"varname" : "u242006247"
 				}
 
 			}
@@ -1298,7 +1298,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u995004960"
+									"varname" : "u955006250"
 								}
 
 							}
@@ -2103,13 +2103,13 @@
 					"presentation_rect" : [ 188.000046, 5.0, 1097.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_unitstyle" : 4,
+							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_type" : 0,
 							"parameter_shortname" : "master vol",
-							"parameter_longname" : "master volume",
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "master volume"
 						}
 
 					}
