@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 893.0, 400.0 ],
+		"rect" : [ 4.0, 44.0, 1436.0, 810.0 ],
 		"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,24 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-23",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 120.0, 633.5, 69.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 899.499756, 5.0, 69.0, 25.0 ],
+					"text" : ";\rmax dspstatus"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -106,7 +124,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 730.0, 625.0, 58.0, 16.0 ],
-					"presentation_rect" : [ 740.25, 627.0, 0.0, 0.0 ],
 					"text" : "fadeout $1"
 				}
 
@@ -325,7 +342,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_z_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u551008464"
+									"varname" : "u467006806"
 								}
 
 							}
@@ -348,7 +365,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_x_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u876008466"
+									"varname" : "u213006808"
 								}
 
 							}
@@ -371,7 +388,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u784008468"
+									"varname" : "u253006810"
 								}
 
 							}
@@ -497,19 +514,6 @@
 ,
 					"text" : "p set_poly_voices",
 					"varname" : "patcher[3]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 870.0, 304.5, 144.0, 18.0 ],
-					"text" : "print MainSampler-thispatcher"
 				}
 
 			}
@@ -681,7 +685,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u204008473"
+									"varname" : "u740006815"
 								}
 
 							}
@@ -966,7 +970,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u496008479"
+									"varname" : "u904006821"
 								}
 
 							}
@@ -1322,7 +1326,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::gui::grid_apply @invisible 1 @autorestore 0",
-					"varname" : "u758008486"
+					"varname" : "u665006828"
 				}
 
 			}
@@ -1441,7 +1445,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u916008489"
+									"varname" : "u161006831"
 								}
 
 							}
@@ -2405,15 +2409,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-53", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-198", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2433,29 +2428,11 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-56", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-198", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 792.5, 250.5, 600.0, 250.5 ],
 					"source" : [ "obj-56", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-71", 0 ]
 				}
 
 			}
