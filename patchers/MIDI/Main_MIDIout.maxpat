@@ -419,7 +419,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "communications to all sampler voices",
+					"annotation" : "communications to all note_interface voices",
 					"color" : [ 0.929412, 0.905882, 0.560784, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 22.657755,
@@ -427,8 +427,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.25, 755.0, 158.0, 32.0 ],
-					"text" : "send samplers"
+					"patching_rect" : [ 620.25, 755.0, 208.0, 32.0 ],
+					"text" : "send noteinterfaces"
 				}
 
 			}
@@ -586,7 +586,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_z_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u392008105"
+									"varname" : "u505002682"
 								}
 
 							}
@@ -609,7 +609,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_x_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u213008106"
+									"varname" : "u474002678"
 								}
 
 							}
@@ -632,7 +632,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u519008107"
+									"varname" : "u549002679"
 								}
 
 							}
@@ -929,7 +929,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u255008117"
+									"varname" : "u113002674"
 								}
 
 							}
@@ -1214,7 +1214,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u750008125"
+									"varname" : "u248002665"
 								}
 
 							}
@@ -1570,7 +1570,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::gui::grid_apply @invisible 1 @autorestore 0",
-					"varname" : "u232006852"
+					"varname" : "u469002661"
 				}
 
 			}
@@ -1689,7 +1689,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u423007619"
+									"varname" : "u605002646"
 								}
 
 							}
@@ -1828,8 +1828,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 490.0, 241.0, 47.0 ],
-					"text" : "poly~ polyMidi"
+					"patching_rect" : [ 20.0, 490.0, 311.0, 47.0 ],
+					"text" : "poly~ polyMidi 256"
 				}
 
 			}

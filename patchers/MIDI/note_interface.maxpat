@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 0.0, 800.0, 554.0 ],
+		"rect" : [ 4.0, 44.0, 800.0, 554.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -36,8 +36,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.5, 274.5, 65.0, 18.0 ],
-					"text" : "loadmess -1"
+					"patching_rect" : [ 15.5, 274.5, 109.0, 18.0 ],
+					"text" : "loadmess -1 @defer 1"
 				}
 
 			}
@@ -232,8 +232,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.5, 416.5, 44.0, 16.0 ],
-					"text" : "note $1"
+					"patching_rect" : [ 110.5, 416.5, 58.0, 16.0 ],
+					"text" : "thenote $1"
 				}
 
 			}
@@ -792,7 +792,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.693878, 0.529765, 1.0 ],
+					"bgcolor" : [ 0.0, 0.693878, 0.529765, 0.0 ],
 					"border" : 2,
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-7",
