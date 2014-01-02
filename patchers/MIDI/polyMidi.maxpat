@@ -1685,6 +1685,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.25, 13.499985, 45.666672, 18.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -1700,7 +1704,7 @@
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 165.25, 35.0, 473.0, 32.0 ],
-					"text" : "route play loop looptime thenote channnel vel_min vel_max vel_var dur_min dur_max dur_var"
+					"text" : "route play loop looptime thenote channel vel_min vel_max vel_var dur_min dur_max dur_var"
 				}
 
 			}
