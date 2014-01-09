@@ -3,7 +3,6 @@ var space_x, space_y, dead_x, dead_up=0, dead_down=0, dead_y, dead_left=0, dead_
  
 ////////////////////////////////////PUBLIC FUNCTIONS////////////////////////////////////
 //send instruction to draw the grid onto a matrix 
-bang.immediate = 1;
 function bang(){ // MAIN FUNCTION
 	init();
 	
