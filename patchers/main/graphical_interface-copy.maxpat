@@ -40,7 +40,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 97.25, 106.0, 47.0 ],
+					"patching_rect" : [ 0.0, 97.25, 105.0, 47.0 ],
 					"text" : "pattrmarker sonorium"
 				}
 
@@ -299,7 +299,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_spacing @invisible 1 @autorestore 0",
-									"varname" : "u469008921"
+									"varname" : "u955006521"
 								}
 
 							}
@@ -322,7 +322,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u763008939"
+									"varname" : "u094006404"
 								}
 
 							}
@@ -345,7 +345,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u967020253"
+									"varname" : "u306006536"
 								}
 
 							}
@@ -368,7 +368,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u626020222"
+									"varname" : "u581006399"
 								}
 
 							}
@@ -3578,13 +3578,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 131.5, 274.0, 193.0, 18.0 ],
+					"patching_rect" : [ 131.5, 274.0, 133.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr kinect_arc @initial 1 @invisible 1",
+					"text" : "pattr kinect_arc @initial 1",
 					"varname" : "kinect_arc"
 				}
 
