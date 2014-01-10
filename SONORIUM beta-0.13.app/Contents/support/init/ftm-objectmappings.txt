@@ -1,0 +1,2 @@
+max objectfile ftm.edit suivi.edit;
+max objectfile ftm.stats mnm.stats;
