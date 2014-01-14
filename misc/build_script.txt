@@ -1,5 +1,5 @@
 open thispatcher
-open "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/main/SONORIUM beta-0.13.maxpat"
+open "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/main/SONORIUM beta-0.13.3.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/main/graphical_interface.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/main/sonorium_presets.json"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/Sampler/Main_sampler.maxpat"

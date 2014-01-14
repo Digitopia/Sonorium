@@ -31,6 +31,23 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 730.0, 390.0, 33.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
+					"text" : "out 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -145,7 +162,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1",
-					"varname" : "u509014331"
+					"varname" : "u024000108"
 				}
 
 			}
@@ -168,7 +185,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_x_size @invisible 1",
-					"varname" : "u003014330"
+					"varname" : "u251000295"
 				}
 
 			}
@@ -359,7 +376,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_threshold @invisible 1",
-					"varname" : "u745014332"
+					"varname" : "u243000298"
 				}
 
 			}
@@ -382,7 +399,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_gain @invisible 1",
-					"varname" : "u627014882"
+					"varname" : "u556000286"
 				}
 
 			}
@@ -405,7 +422,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_out_dim @invisible 1",
-					"varname" : "u101014266"
+					"varname" : "u733000290"
 				}
 
 			}
@@ -597,7 +614,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::bounds_depth_max @invisible 1 @autorestore 0",
-					"varname" : "u539014302"
+					"varname" : "u698000303"
 				}
 
 			}
@@ -620,7 +637,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::bounds_depth_min @invisible 1 @autorestore 0",
-					"varname" : "u915014318"
+					"varname" : "u155000305"
 				}
 
 			}
@@ -1041,7 +1058,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::gui::bounds_src_dim @invisible 1 @autorestore 0",
-									"varname" : "u442014272"
+									"varname" : "u546000324"
 								}
 
 							}
@@ -1078,7 +1095,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::area_mm @invisible 1 @autorestore 0",
-									"varname" : "u169014270"
+									"varname" : "u846000328"
 								}
 
 							}
@@ -1115,7 +1132,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::gui::bounds_src_dim @invisible 1 @autorestore 0",
-									"varname" : "u670014268"
+									"varname" : "u294000341"
 								}
 
 							}
@@ -1153,7 +1170,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::gui::kinect_fov_v @invisible 1 @autorestore 0",
-									"varname" : "u177014265"
+									"varname" : "u711000339"
 								}
 
 							}
@@ -1177,7 +1194,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::gui::kinect_fov_h @invisible 1 @autorestore 0",
-									"varname" : "u964014283"
+									"varname" : "u913000338"
 								}
 
 							}
@@ -1312,7 +1329,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::ARCorrection::kinect_dim @invisible 1 @thru 0",
-									"varname" : "u972014894"
+									"varname" : "u610000334"
 								}
 
 							}
@@ -1875,7 +1892,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_spacing @invisible 1 @autorestore 0",
-					"varname" : "u432014295"
+					"varname" : "u834000348"
 				}
 
 			}
@@ -1913,7 +1930,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_z_size @invisible 1",
-					"varname" : "u048014903"
+					"varname" : "u606000353"
 				}
 
 			}
@@ -2035,10 +2052,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 40.0, 65.0, 27.0, 18.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -2497,6 +2510,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
