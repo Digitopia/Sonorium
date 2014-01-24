@@ -44,7 +44,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u710019316"
+					"varname" : "u334000825"
 				}
 
 			}
@@ -365,7 +365,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 56.0, 205.0, 67.0, 19.0 ],
+					"patching_rect" : [ 56.0, 190.0, 67.0, 19.0 ],
 					"text" : "sel empty 0"
 				}
 
@@ -1017,7 +1017,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 113.5, 232.0, 234.5, 232.0 ],
+					"midpoints" : [ 113.5, 226.0, 234.5, 226.0 ],
 					"source" : [ "obj-9", 2 ]
 				}
 

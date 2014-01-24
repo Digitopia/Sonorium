@@ -76,7 +76,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_sampler @invisible 1 @autorestore 0",
-					"varname" : "u277003087"
+					"varname" : "u818011864"
 				}
 
 			}
@@ -113,7 +113,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_midi @invisible 1 @autorestore 0",
-					"varname" : "u318003085"
+					"varname" : "u926011868"
 				}
 
 			}
@@ -150,7 +150,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_port @invisible 1 @autorestore 0",
-					"varname" : "u453002778"
+					"varname" : "u417011866"
 				}
 
 			}
@@ -187,7 +187,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc @invisible 1 @autorestore 0",
-					"varname" : "u629003089"
+					"varname" : "u683011882"
 				}
 
 			}
@@ -489,7 +489,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_spacing @invisible 1 @autorestore 0",
-									"varname" : "u746003064"
+									"varname" : "u530011887"
 								}
 
 							}
@@ -512,7 +512,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u197018958"
+									"varname" : "u234011885"
 								}
 
 							}
@@ -535,7 +535,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u872002913"
+									"varname" : "u878011901"
 								}
 
 							}
@@ -558,7 +558,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u606002916"
+									"varname" : "u336011919"
 								}
 
 							}
@@ -1030,7 +1030,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_IP @invisible 1 @autorestore 0",
-					"varname" : "u366002909"
+					"varname" : "u362011902"
 				}
 
 			}
@@ -1784,7 +1784,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-106",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to SONORIUM beta-0.13.2 1", ",", "to SONORIUM beta-0.13.2 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,

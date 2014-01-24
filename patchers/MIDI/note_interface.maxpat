@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 800.0, 554.0 ],
+		"rect" : [ 4.0, 44.0, 878.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -51,7 +51,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u743019231"
+					"varname" : "u184000771"
 				}
 
 			}
@@ -437,7 +437,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.5, 371.0, 74.0, 27.0 ],
+					"patching_rect" : [ 15.5, 344.0, 74.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 61.0, 2.0, 45.0, 27.0 ],
 					"triangle" : 0,
