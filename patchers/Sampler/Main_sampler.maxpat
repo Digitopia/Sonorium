@@ -30,6 +30,29 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 0.4, 1.0 ],
+					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 335.0, 555.0, 71.0, 18.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"text" : "pattr volume",
+					"varname" : "volume"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
@@ -349,14 +372,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 55.0, 180.0, 406.0, 18.0 ],
+									"patching_rect" : [ 55.0, 180.0, 368.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_z_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u813008530"
+									"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u389021496"
 								}
 
 							}
@@ -372,14 +395,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 95.0, 144.0, 406.0, 18.0 ],
+									"patching_rect" : [ 95.0, 144.0, 369.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_x_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u229008532"
+									"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u756021502"
 								}
 
 							}
@@ -395,14 +418,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 75.0, 162.0, 406.0, 18.0 ],
+									"patching_rect" : [ 75.0, 162.0, 369.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u999008534"
+									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u352021495"
 								}
 
 							}
@@ -692,14 +715,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 90.0, 85.0, 406.0, 18.0 ],
+									"patching_rect" : [ 90.0, 85.0, 369.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u728008539"
+									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u140021466"
 								}
 
 							}
@@ -977,14 +1000,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 84.5, 100.0, 406.0, 18.0 ],
+									"patching_rect" : [ 84.5, 100.0, 369.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u687008545"
+									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u577014205"
 								}
 
 							}
@@ -1339,8 +1362,8 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr @bindto parent::gui::grid_apply @invisible 1 @autorestore 0",
-					"varname" : "u686008552"
+					"text" : "pattr @bindto ::sonorium::grid_apply @invisible 1 @autorestore 0",
+					"varname" : "u162021527"
 				}
 
 			}
@@ -1452,14 +1475,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 7.5, 15.0, 366.0, 18.0 ],
+									"patching_rect" : [ 7.5, 15.0, 329.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u500008555"
+									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0",
+									"varname" : "u400021541"
 								}
 
 							}
@@ -2333,6 +2356,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}

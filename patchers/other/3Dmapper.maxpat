@@ -31,6 +31,23 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 730.0, 390.0, 33.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
+					"text" : "out 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -145,7 +162,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1",
-					"varname" : "u305000222"
+					"varname" : "u024000108"
 				}
 
 			}
@@ -168,7 +185,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_x_size @invisible 1",
-					"varname" : "u240003394"
+					"varname" : "u251000295"
 				}
 
 			}
@@ -359,7 +376,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_threshold @invisible 1",
-					"varname" : "u871000218"
+					"varname" : "u243000298"
 				}
 
 			}
@@ -382,7 +399,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_gain @invisible 1",
-					"varname" : "u562000214"
+					"varname" : "u556000286"
 				}
 
 			}
@@ -405,7 +422,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_out_dim @invisible 1",
-					"varname" : "u783000213"
+					"varname" : "u733000290"
 				}
 
 			}
@@ -597,7 +614,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::bounds_depth_max @invisible 1 @autorestore 0",
-					"varname" : "u987000149"
+					"varname" : "u698000303"
 				}
 
 			}
@@ -620,7 +637,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::bounds_depth_min @invisible 1 @autorestore 0",
-					"varname" : "u223000146"
+					"varname" : "u155000305"
 				}
 
 			}
@@ -824,6 +841,38 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"annotation" : "ensure proper calculations ",
+									"color" : [ 0.843137, 0.321569, 0.180392, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 369.0, 25.0, 74.0, 18.0 ],
+									"text" : "r 2Dgrid_done"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "make sure the calculation is properly done when loading presets",
+									"color" : [ 0.843137, 0.321569, 0.180392, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 369.0, 100.0, 32.5, 18.0 ],
+									"text" : "t l b"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-99",
@@ -1009,7 +1058,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::gui::bounds_src_dim @invisible 1 @autorestore 0",
-									"varname" : "u214000190"
+									"varname" : "u546000324"
 								}
 
 							}
@@ -1046,7 +1095,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::area_mm @invisible 1 @autorestore 0",
-									"varname" : "u626000191"
+									"varname" : "u846000328"
 								}
 
 							}
@@ -1083,7 +1132,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::gui::bounds_src_dim @invisible 1 @autorestore 0",
-									"varname" : "u367000189"
+									"varname" : "u294000341"
 								}
 
 							}
@@ -1121,7 +1170,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::gui::kinect_fov_v @invisible 1 @autorestore 0",
-									"varname" : "u885000184"
+									"varname" : "u711000339"
 								}
 
 							}
@@ -1145,7 +1194,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::gui::kinect_fov_h @invisible 1 @autorestore 0",
-									"varname" : "u591000185"
+									"varname" : "u913000338"
 								}
 
 							}
@@ -1280,7 +1329,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::parent::parent::ARCorrection::kinect_dim @invisible 1 @thru 0",
-									"varname" : "u905000183"
+									"varname" : "u610000334"
 								}
 
 							}
@@ -1402,6 +1451,60 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-49", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-66", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1456,7 +1559,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-49", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-47", 0 ]
@@ -1789,7 +1892,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_spacing @invisible 1 @autorestore 0",
-					"varname" : "u388000175"
+					"varname" : "u834000348"
 				}
 
 			}
@@ -1827,7 +1930,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::parent::gui::grid_z_size @invisible 1",
-					"varname" : "u483000176"
+					"varname" : "u606000353"
 				}
 
 			}
@@ -1949,10 +2052,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 40.0, 65.0, 27.0, 18.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -2411,6 +2510,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]

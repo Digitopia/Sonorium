@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 29.0, 69.0, 1318.0, 776.0 ],
+		"rect" : [ 4.0, 44.0, 1436.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -607,14 +607,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 55.0, 180.0, 406.0, 18.0 ],
+									"patching_rect" : [ 55.0, 180.0, 368.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_z_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u810006108"
+									"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u038024202"
 								}
 
 							}
@@ -630,14 +630,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 95.0, 144.0, 406.0, 18.0 ],
+									"patching_rect" : [ 95.0, 144.0, 369.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_x_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u583006114"
+									"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u159024183"
 								}
 
 							}
@@ -653,14 +653,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 75.0, 162.0, 406.0, 18.0 ],
+									"patching_rect" : [ 75.0, 162.0, 369.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u801006115"
+									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u643024195"
 								}
 
 							}
@@ -950,14 +950,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 90.0, 85.0, 406.0, 18.0 ],
+									"patching_rect" : [ 90.0, 85.0, 369.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u712006120"
+									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u537024197"
 								}
 
 							}
@@ -1235,14 +1235,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 84.5, 100.0, 406.0, 18.0 ],
+									"patching_rect" : [ 84.5, 100.0, 369.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u764006128"
+									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0 @thru 0",
+									"varname" : "u499024184"
 								}
 
 							}
@@ -1597,8 +1597,8 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr @bindto parent::gui::grid_apply @invisible 1 @autorestore 0",
-					"varname" : "u240006139"
+					"text" : "pattr @bindto ::sonorium::grid_apply @invisible 1 @autorestore 0",
+					"varname" : "u332024177"
 				}
 
 			}
@@ -1636,7 +1636,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 29.0, 69.0, 396.0, 274.0 ],
+						"rect" : [ 29.0, 95.0, 396.0, 248.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -1710,14 +1710,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 7.5, 15.0, 366.0, 18.0 ],
+									"patching_rect" : [ 7.5, 15.0, 329.0, 18.0 ],
 									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u433006143"
+									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0",
+									"varname" : "u009021472"
 								}
 
 							}

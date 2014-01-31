@@ -51,8 +51,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 145.0, 240.0, 16.0 ],
-					"text" : "bindto parent::parent::parent::gui::grid_x_size, bang"
+					"patching_rect" : [ 270.0, 145.0, 171.0, 16.0 ],
+					"text" : "bindto ::sonorium::grid_x_size, bang"
 				}
 
 			}
@@ -65,8 +65,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 258.5, 120.0, 178.0, 16.0 ],
-					"text" : "bindto parent::parent::gui::grid_x_size"
+					"patching_rect" : [ 258.5, 120.0, 143.0, 16.0 ],
+					"text" : "bindto ::sonorium::grid_x_size"
 				}
 
 			}
@@ -93,8 +93,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 245.0, 70.0, 206.0, 16.0 ],
-					"text" : "bindto parent::parent::gui::grid_z_size, bang"
+					"patching_rect" : [ 245.0, 70.0, 171.0, 16.0 ],
+					"text" : "bindto ::sonorium::grid_z_size, bang"
 				}
 
 			}
@@ -250,7 +250,7 @@
 									}
 ,
 									"text" : "pattr @invisible 1 @autorestore 0",
-									"varname" : "u515006745"
+									"varname" : "u466008852"
 								}
 
 							}
@@ -487,7 +487,7 @@
 									}
 ,
 									"text" : "pattr @invisible 1 @autorestore 0",
-									"varname" : "u226009884"
+									"varname" : "u802008881"
 								}
 
 							}
@@ -817,7 +817,7 @@
 					}
 ,
 					"text" : "pattr @invisible 1 @autorestore 1 @thru 0",
-					"varname" : "u904009880"
+					"varname" : "u513008869"
 				}
 
 			}
@@ -840,7 +840,7 @@
 					}
 ,
 					"text" : "pattr @invisible 1 @autorestore 0 @thru 0",
-					"varname" : "u274009878"
+					"varname" : "u747020585"
 				}
 
 			}

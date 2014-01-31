@@ -18,16 +18,19 @@ function bang(){ // MAIN FUNCTION
 }
 
 //SETTERS
-// set grid squares in x and y axes 
+// set grid squares in x and y axes
+set_x.immediate = 1;
 function set_x(v){
 	areas_x = v;
  	if(verbose == 1){post("areas_x = "+areas_x+"\n");}
 }
+set_y.immediate = 1;
 function set_y(v) {
 	areas_y = v;
  	if(verbose == 1){post("areas_y = "+areas_y+"\n");}
 }
-//set dim 
+//set dim
+dim.immediate = 1;
 function dim(m){
 	dim_w = arrayfromargs(arguments)[0];
  	dim_h = arrayfromargs(arguments)[1];
@@ -35,6 +38,7 @@ function dim(m){
 	if(verbose == 1){post("dim_h = "+dim_h+"\n");}	
 }
 //set space
+set_space.immediate = 1;
 function set_space(v){
 	space = v.toFixed(7);
  	if(verbose == 1){post("space = "+space+"\n");}
@@ -43,12 +47,14 @@ function print(v){
 	if(v > 0) {verbose = 1;} else{verbose = 0;}
 }
 ////////////////////////////////////PRIVATE FUNCTIONS//////////////////////////////////// 
-init.local = 1; 
+init.local = 1;
+init.immediate = 1;
 function init(){
 	space_x=0, space_y=0, dead_x=0, dead_up=0, dead_down=0, dead_y=0, dead_left=0, dead_right=0, area_w=0, area_h=0, w=0, h=0;
 }
 /*************************************CALCULATIONS**************************************/
 calcEmptySpace.local = 1;
+calcEmptySpace.immediate = 1;
 function calcEmptySpace(){ // calc empty spaces' thickness 
 	space_x = Math.round(dim_w*space);
 	if (space != 0. && space_x == 0) {space_x = 1;}
@@ -58,6 +64,7 @@ function calcEmptySpace(){ // calc empty spaces' thickness
 	if(verbose == 1){post("space_y = "+space_y+"\n");}
 }
 calcDeadSpace.local = 1;
+calcDeadSpace.immediate = 1;
 function calcDeadSpace(){ // calc amount of discriminated/"dead" pixels 
 	w = dim_w, h = dim_h;
  	dead_x = 0, deady_y = 0; 
@@ -83,6 +90,7 @@ function calcDeadSpace(){ // calc amount of discriminated/"dead" pixels
 	if(verbose == 1){post("h = "+h+"\n"); post("dead_x = "+dead_x+"\n"); post("dead_up = "+dead_up+"\n"); post("dead_down = "+dead_down+"\n");}
 }
 calcArea.local = 1;
+calcArea.immediate = 1;
 function calcArea(){ // calc size(w, h) of each interactive area 
 	area_w = Math.round((w - space_x * (areas_x-1)) / areas_x);
 	area_h = Math.round((h - space_y * (areas_y-1)) / areas_y);
@@ -93,7 +101,8 @@ function calcArea(){ // calc size(w, h) of each interactive area
 	if(verbose == 1){post("area_h = "+area_h+"\n");}
 }
 /*************************************DRAWINGS**************************************/
-drawGrid.local = 1; 
+drawGrid.local = 1;
+drawGrid.immediate = 1;
 function drawGrid() {
 	//Horizontal Grid Lines	
 	for (var q = 0; q < areas_y-1; q++){
@@ -105,6 +114,7 @@ function drawGrid() {
 	}
 } 
 drawDeadPixels.local = 1;
+drawDeadPixels.immediate = 1;
 function drawDeadPixels(){
 	drawLines(0., 0, dim_w, 0, dead_up, "horizontal"); // dead_up
 	drawLines(0., 0, dim_w, dim_h-dead_down, dead_down, "horizontal"); // dead_down
@@ -112,6 +122,7 @@ function drawDeadPixels(){
 	drawLines(0., 0, dim_h, dim_w-dead_right, dead_right, "vertical");// dead_right
 }
 drawLines.local = 1;
+drawLines.immediate = 1;
 function drawLines(value, start, end, offset, thickness, orientation){
 	switch (orientation)
 	{ 
