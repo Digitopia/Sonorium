@@ -235,7 +235,7 @@
 					"midiout::container[1]::s[16]::velvar" : [ 32 ],
 					"output_max" : [ 0 ],
 					"output_osc" : [ 0 ],
-					"output_sampler" : [ 0 ],
+					"output_sampler" : [ 1 ],
 					"output_midi" : [ 0 ]
 				}
 

@@ -31,7 +31,7 @@
 					"gui::midi_port" : [ "port a" ],
 					"gui::output_midi_mode" : [ 0 ],
 					"gui::output_max" : [ 0 ],
-					"gui::output_sampler_presetpath" : [ "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/main/sonorium_output.json" ],
+					"gui::output_sampler_presetpath" : [ "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/misc/sonorium_output.json" ],
 					"gui::output_sampler_recall" : [ 1 ],
 					"ARCorrection::kinect_coordinates" : [ 73, 66, 640, 436 ],
 					"ARCorrection::kinect_dim" : [ 567, 411 ],
