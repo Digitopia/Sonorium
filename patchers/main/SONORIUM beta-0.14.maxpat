@@ -6361,7 +6361,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 199.25, 100.0, 32.5, 18.0 ],
-													"text" : "o.f2i"
+													"text" : "ta.f2i"
 												}
 
 											}
@@ -6378,7 +6378,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 162.5, 100.0, 32.5, 18.0 ],
-													"text" : "o.f2i"
+													"text" : "ta.f2i"
 												}
 
 											}
@@ -6395,7 +6395,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 125.75, 100.0, 32.5, 18.0 ],
-													"text" : "o.f2i"
+													"text" : "ta.f2i"
 												}
 
 											}
@@ -6412,7 +6412,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 89.0, 100.0, 32.5, 18.0 ],
-													"text" : "o.f2i"
+													"text" : "ta.f2i"
 												}
 
 											}
@@ -9645,7 +9645,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 684.0, 610.5, 32.5, 18.0 ],
-									"text" : "o.f2i"
+									"text" : "ta.f2i"
 								}
 
 							}
@@ -14754,7 +14754,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.f2i.maxpat",
+				"name" : "ta.f2i.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Data",
 				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Open-Library/patchers/o-max/Data",
 				"type" : "JSON",

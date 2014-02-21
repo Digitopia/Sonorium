@@ -12,9 +12,7 @@ include "Macintosh HD:/Applications/Max 6.1/packages/jit.openni.v0.88_MAC_OSX/ex
 
 include "Macintosh HD:/Applications/Max 6.1/packages/OpenInstruments/javascript/oi.autovarname.js"
 
-include "Macintosh HD:/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Data/o.f2i.maxpat"
-
-include "Macintosh HD:/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists/o.listcomparison.maxpat"
+include "Macintosh HD:/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Data/ta.f2i.maxpat"
 
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/misc/sonorium_presets.json"
 
