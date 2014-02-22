@@ -32,6 +32,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-185",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 908.5, 1190.0, 86.0, 18.0 ],
+					"text" : "ta.symbolchange"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-182",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -443,7 +457,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 908.5, 1190.0, 44.0, 16.0 ],
+					"patching_rect" : [ 908.5, 1245.0, 44.0, 16.0 ],
 					"text" : "read $1"
 				}
 
@@ -558,7 +572,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_sampler @invisible 1 @autorestore 0",
-					"varname" : "u934014309"
+					"varname" : "u314006792"
 				}
 
 			}
@@ -595,7 +609,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_midi @invisible 1 @autorestore 0",
-					"varname" : "u280014317"
+					"varname" : "u813006794"
 				}
 
 			}
@@ -632,7 +646,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_port @invisible 1 @autorestore 0",
-					"varname" : "u662014319"
+					"varname" : "u504006796"
 				}
 
 			}
@@ -669,7 +683,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc @invisible 1 @autorestore 0",
-					"varname" : "u786014315"
+					"varname" : "u993006798"
 				}
 
 			}
@@ -1446,7 +1460,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_spacing @invisible 1 @autorestore 0",
-									"varname" : "u943014338"
+									"varname" : "u553006815"
 								}
 
 							}
@@ -1469,7 +1483,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u479014334"
+									"varname" : "u190006817"
 								}
 
 							}
@@ -1492,7 +1506,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u399014348"
+									"varname" : "u969006819"
 								}
 
 							}
@@ -1515,7 +1529,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u151014344"
+									"varname" : "u413006821"
 								}
 
 							}
@@ -1988,7 +2002,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_IP @invisible 1 @autorestore 0",
-					"varname" : "u823014355"
+					"varname" : "u843006832"
 				}
 
 			}
@@ -2742,7 +2756,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-106",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to SONORIUM beta-0.14 1", ",", "to SONORIUM beta-0.14 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -5460,7 +5474,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-195", 0 ],
+					"destination" : [ "obj-185", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-172", 1 ]
@@ -5609,6 +5623,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-184", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-195", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-185", 0 ]
 				}
 
 			}
@@ -6253,7 +6276,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "ta.symbolchange.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/ta-max/Control",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/TA-Library/patchers/ta-max/Control",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }
