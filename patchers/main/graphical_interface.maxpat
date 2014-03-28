@@ -635,13 +635,13 @@
 					"presentation_rect" : [ 396.0, 1237.0, 150.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Volume",
+							"parameter_longname" : "Volume",
 							"parameter_unitstyle" : 4,
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_type" : 0,
-							"parameter_shortname" : "Volume",
-							"parameter_longname" : "Volume"
+							"parameter_type" : 0
 						}
 
 					}
@@ -3328,7 +3328,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_spacing @invisible 1 @autorestore 0",
-									"varname" : "u977003059"
+									"varname" : "u608011496"
 								}
 
 							}
@@ -3365,7 +3365,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_apply @invisible 1 @autorestore 0",
-									"varname" : "u223003030"
+									"varname" : "u883016801"
 								}
 
 							}
@@ -3442,7 +3442,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u744003033"
+									"varname" : "u858012717"
 								}
 
 							}
@@ -3466,7 +3466,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u359003035"
+									"varname" : "u346012726"
 								}
 
 							}
@@ -3490,7 +3490,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u366003037"
+									"varname" : "u021012722"
 								}
 
 							}
@@ -3776,7 +3776,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::bounds_area @invisible 1 @autorestore 0",
-													"varname" : "u541003043"
+													"varname" : "u555011523"
 												}
 
 											}
@@ -3813,7 +3813,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::kinect_fov_v @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u207003040"
+													"varname" : "u992011515"
 												}
 
 											}
@@ -4171,7 +4171,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::bounds_area @invisible 1 @autorestore 0",
-													"varname" : "u993003013"
+													"varname" : "u915011716"
 												}
 
 											}
@@ -4208,7 +4208,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::kinect_fov_h @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u411003009"
+													"varname" : "u861011714"
 												}
 
 											}
@@ -4502,7 +4502,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::bounds_depth_max @invisible 1 @autorestore 0",
-									"varname" : "u942003488"
+									"varname" : "u361011712"
 								}
 
 							}
@@ -4555,7 +4555,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::bounds_depth_min @invisible 1 @autorestore 0",
-									"varname" : "u364002998"
+									"varname" : "u661016786"
 								}
 
 							}
@@ -5445,7 +5445,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_sampler @invisible 1 @autorestore 0",
-					"varname" : "u122002995"
+					"varname" : "u564012849"
 				}
 
 			}
@@ -5482,7 +5482,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_midi @invisible 1 @autorestore 0",
-					"varname" : "u900002997"
+					"varname" : "u276016747"
 				}
 
 			}
@@ -5520,7 +5520,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_port @invisible 1 @autorestore 0",
-					"varname" : "u434002985"
+					"varname" : "u099016770"
 				}
 
 			}
@@ -5558,7 +5558,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc @invisible 1 @autorestore 0",
-					"varname" : "u460002984"
+					"varname" : "u980016766"
 				}
 
 			}
@@ -6867,7 +6867,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_spacing @invisible 1 @autorestore 0",
-									"varname" : "u785003521"
+									"varname" : "u866013122"
 								}
 
 							}
@@ -6890,7 +6890,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u260003505"
+									"varname" : "u438013135"
 								}
 
 							}
@@ -6913,7 +6913,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u171003507"
+									"varname" : "u075016783"
 								}
 
 							}
@@ -6936,7 +6936,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u734003503"
+									"varname" : "u046016723"
 								}
 
 							}
@@ -7099,18 +7099,17 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-112",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 385.75, 1835.0, 122.0, 40.0 ],
+					"patching_rect" : [ 365.75, 1805.0, 283.0, 18.0 ],
 					"restore" : [ -1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr output_sampler_config @invisible 1",
+					"text" : "pattr output_sampler_config @invisible 1 @autorestore 0",
 					"varname" : "output_sampler_config"
 				}
 
@@ -7127,13 +7126,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 706.25, 1935.0, 189.0, 18.0 ],
+					"patching_rect" : [ 706.25, 1935.0, 265.0, 18.0 ],
 					"restore" : [ -1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "pattr output_midi_config @invisible 1",
+					"text" : "pattr output_midi_config @invisible 1 @autorestore 0",
 					"varname" : "output_midi_config"
 				}
 
@@ -7288,7 +7287,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_IP @invisible 1 @autorestore 0",
-					"varname" : "u020003493"
+					"varname" : "u978013159"
 				}
 
 			}
@@ -8895,7 +8894,7 @@
 					"destination" : [ "obj-287", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 446.75, 1880.0, 395.25, 1880.0 ],
+					"midpoints" : [ 507.25, 1880.0, 395.25, 1880.0 ],
 					"source" : [ "obj-112", 1 ]
 				}
 
@@ -9319,7 +9318,7 @@
 					"destination" : [ "obj-288", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 800.75, 1960.125, 715.75, 1960.125 ],
+					"midpoints" : [ 838.75, 1960.125, 715.75, 1960.125 ],
 					"source" : [ "obj-192", 1 ]
 				}
 
