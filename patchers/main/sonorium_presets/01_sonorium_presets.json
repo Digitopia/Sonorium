@@ -1,0 +1,38 @@
+{
+	"pattrstorage" : 	{
+		"name" : "outuput_presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"output_osc_port" : [ 7000 ],
+					"output_osc_IP" : [ "127.0.0.1" ],
+					"output_midi_device[1]" : [ "from Max 1" ],
+					"sampler::volume" : [ 0.0 ],
+					"sampler::container[1]::s[1]::path" : [ 0 ],
+					"sampler::container[1]::s[1]::fadein" : [ 0.0 ],
+					"sampler::container[1]::s[1]::fadeout" : [ 0.0 ],
+					"sampler::container[1]::s[1]::loop_toggle" : [ 0 ],
+					"midiout::container[1]::s[1]::channel" : [ 1 ],
+					"midiout::container[1]::s[1]::durmax" : [ 500 ],
+					"midiout::container[1]::s[1]::durmin" : [ 100 ],
+					"midiout::container[1]::s[1]::durvar" : [ 50 ],
+					"midiout::container[1]::s[1]::loop_toggle" : [ 0 ],
+					"midiout::container[1]::s[1]::looptime" : [ 0 ],
+					"midiout::container[1]::s[1]::note" : [ -1 ],
+					"midiout::container[1]::s[1]::velmax" : [ 100 ],
+					"midiout::container[1]::s[1]::velmin" : [ 0 ],
+					"midiout::container[1]::s[1]::velvar" : [ 32 ],
+					"output_max" : [ 0 ],
+					"output_osc" : [ 0 ],
+					"output_sampler" : [ 0 ],
+					"output_midi" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
