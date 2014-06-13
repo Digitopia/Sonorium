@@ -9,7 +9,6 @@
 		}
 ,
 		"rect" : [ 4.0, 44.0, 1436.0, 810.0 ],
-		"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -117,7 +116,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1",
-					"varname" : "u843005631"
+					"varname" : "u010004951"
 				}
 
 			}
@@ -140,7 +139,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1",
-					"varname" : "u059003431"
+					"varname" : "u434025024"
 				}
 
 			}
@@ -191,7 +190,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1",
-					"varname" : "u367003450"
+					"varname" : "u083021087"
 				}
 
 			}
@@ -473,7 +472,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u731003483"
+									"varname" : "u719025028"
 								}
 
 							}
@@ -496,7 +495,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u612003465"
+									"varname" : "u745010527"
 								}
 
 							}
@@ -519,7 +518,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u327003478"
+									"varname" : "u809004962"
 								}
 
 							}
@@ -757,7 +756,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u972003472"
+									"varname" : "u268004959"
 								}
 
 							}
@@ -1405,7 +1404,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 29.0, 69.0, 396.0, 274.0 ],
+						"rect" : [ 29.0, 69.0, 528.0, 475.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -1425,6 +1424,34 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 56.5, 285.0, 76.0, 16.0 ],
+									"text" : "append 1 (top)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 56.5, 175.0, 32.5, 18.0 ],
+									"text" : "sel 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -1448,7 +1475,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 48.333332, 160.0, 48.333328, 27.0 ],
+									"patching_rect" : [ 70.0, 210.0, 48.333328, 27.0 ],
 									"text" : "append $1"
 								}
 
@@ -1486,7 +1513,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u392003591"
+									"varname" : "u339010522"
 								}
 
 							}
@@ -1497,7 +1524,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 130.0, 230.0, 25.0, 25.0 ]
+									"patching_rect" : [ 130.0, 340.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1549,10 +1576,37 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-178", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-179", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-178", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-182", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -2442,10 +2496,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "polySampler.maxpat",
 				"bootpath" : "/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/Sampler",

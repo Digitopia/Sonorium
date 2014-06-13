@@ -88,7 +88,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1",
-					"varname" : "u800012139"
+					"varname" : "u801021093"
 				}
 
 			}
@@ -111,7 +111,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1",
-					"varname" : "u916012121"
+					"varname" : "u460004932"
 				}
 
 			}
@@ -162,7 +162,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1",
-					"varname" : "u038012105"
+					"varname" : "u081004936"
 				}
 
 			}
@@ -711,7 +711,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u632012976"
+									"varname" : "u951021129"
 								}
 
 							}
@@ -734,7 +734,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u893012980"
+									"varname" : "u226024008"
 								}
 
 							}
@@ -757,7 +757,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u832012983"
+									"varname" : "u612021136"
 								}
 
 							}
@@ -995,7 +995,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u964012987"
+									"varname" : "u940021153"
 								}
 
 							}
@@ -1212,7 +1212,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 235.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 300.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1226,7 +1226,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 235.0, 115.0, 29.0 ],
+									"patching_rect" : [ 120.0, 235.0, 115.0, 29.0 ],
 									"text" : "combine container[ 1 ] @triggers 1"
 								}
 
@@ -1269,7 +1269,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 300.0, 504.0, 16.0 ],
+									"patching_rect" : [ 120.0, 300.0, 504.0, 16.0 ],
 									"text" : "script newdefault container[1] bpatcher yMIDIContainer @presentation 1 @presentation_rect 45. 80. 1254. 700."
 								}
 
@@ -1281,7 +1281,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 350.0, 25.0, 25.0 ]
+									"patching_rect" : [ 120.0, 350.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1416,8 +1416,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 124.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 15.0, 129.0, 0.0, 0.0 ]
+									"patching_rect" : [ 15.0, 124.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1644,7 +1643,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 29.0, 95.0, 396.0, 248.0 ],
+						"rect" : [ 29.0, 95.0, 479.0, 395.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -1664,6 +1663,35 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 48.333332, 216.0, 46.666668, 27.0 ],
+									"text" : "append 1 (top)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 48.333332, 145.0, 32.5, 18.0 ],
+									"text" : "sel 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -1687,7 +1715,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 48.333332, 160.0, 48.333328, 27.0 ],
+									"patching_rect" : [ 85.5, 189.0, 48.333328, 27.0 ],
 									"text" : "append $1"
 								}
 
@@ -1725,7 +1753,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u742013325"
+									"varname" : "u273002387"
 								}
 
 							}
@@ -1736,7 +1764,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 130.0, 230.0, 25.0, 25.0 ]
+									"patching_rect" : [ 130.0, 280.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1788,10 +1816,37 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-178", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-179", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-178", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-182", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
