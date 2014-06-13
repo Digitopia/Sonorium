@@ -66,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1179.125, 440.0, 68.0, 18.0 ],
-					"presentation_rect" : [ 1173.0, 446.000061, 0.0, 0.0 ],
 					"text" : "pvar proeasy"
 				}
 
@@ -161,7 +160,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::kinect_connect @invisible 1 @autorestore 0",
-					"varname" : "u542012938"
+					"varname" : "u990014724"
 				}
 
 			}
@@ -622,7 +621,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::parent::preset_file @invisible 1 @autorestore 0",
-									"varname" : "u091012960"
+									"varname" : "u107014751"
 								}
 
 							}
@@ -645,7 +644,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::parent::preset_path @invisible 1 @autorestore 0",
-									"varname" : "u403012958"
+									"varname" : "u574014750"
 								}
 
 							}
@@ -1768,7 +1767,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_save @invisible 1 @autorestore 0",
-													"varname" : "u971012977"
+													"varname" : "u980014593"
 												}
 
 											}
@@ -2170,7 +2169,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_file @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u797012966"
+													"varname" : "u405014588"
 												}
 
 											}
@@ -2193,7 +2192,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_path @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u284012970"
+													"varname" : "u678014599"
 												}
 
 											}
@@ -2764,7 +2763,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_file @invisible 1 @autorestore 0",
-													"varname" : "u754013001"
+													"varname" : "u907014618"
 												}
 
 											}
@@ -2842,7 +2841,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_path @invisible 1 @autorestore 0",
-													"varname" : "u611012998"
+													"varname" : "u508014766"
 												}
 
 											}
@@ -3304,7 +3303,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_path @invisible 1 @autorestore 0",
-													"varname" : "u485012985"
+													"varname" : "u070014758"
 												}
 
 											}
@@ -3773,7 +3772,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_path @invisible 1 @autorestore 0",
-													"varname" : "u467013016"
+													"varname" : "u881014638"
 												}
 
 											}
@@ -4721,7 +4720,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_file @invisible 1 @autorestore 0",
-													"varname" : "u005013014"
+													"varname" : "u494014611"
 												}
 
 											}
@@ -4758,7 +4757,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_path @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u008013012"
+													"varname" : "u707014609"
 												}
 
 											}
@@ -4837,7 +4836,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_slotnames::items @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u542013004"
+													"varname" : "u308014608"
 												}
 
 											}
@@ -5290,7 +5289,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_slotnames @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u159013035"
+													"varname" : "u973014798"
 												}
 
 											}
@@ -7166,12 +7165,15 @@
 					"fontsize" : 9.0,
 					"frgb" : 0.0,
 					"id" : "obj-132",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 359.0, 156.0, 17.0 ],
+					"patching_rect" : [ 55.0, 359.0, 502.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.625, 116.0, 501.375, 17.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 3.625, 116.0, 503.375, 27.0 ],
+					"text" : "PRESET: Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/main/sonorium_presets/sonorium_presets.json",
 					"textcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ]
 				}
 
@@ -7595,7 +7597,7 @@
 					"name" : "graphical_interface.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -5.0, -1075.0 ],
+					"offset" : [ -5.0, -5.0 ],
 					"patching_rect" : [ 1113.125, 198.0, 496.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 172.0, 590.0, 350.0 ],
@@ -7610,7 +7612,7 @@
 					"fontsize" : 14.0,
 					"hovertabcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 					"hovertextcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
-					"htabcolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
+					"htabcolor" : [ 0.466667, 0.74902, 0.894118, 1.0 ],
 					"id" : "obj-8",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -7793,13 +7795,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1132.75, 414.730042, 274.0, 18.0 ],
-					"restore" : [ 3 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto gui_selector @invisible 1 @autorestore 0",
-					"varname" : "u288013285"
+					"varname" : "u602015026"
 				}
 
 			}
@@ -8125,13 +8127,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 35.0, 25.0, 311.0, 18.0 ],
-									"restore" : [ 3 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::gui_selector @invisible 1 @autorestore 1",
-									"varname" : "u196013281"
+									"varname" : "u889014976"
 								}
 
 							}
@@ -8431,7 +8433,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::grid_slice_preview @invisible 1 @autorestore 0",
-									"varname" : "u208013270"
+									"varname" : "u089014984"
 								}
 
 							}
@@ -8454,7 +8456,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_src_dim @invisible 1 @autorestore 1",
-									"varname" : "u400013274"
+									"varname" : "u057014977"
 								}
 
 							}
@@ -9272,13 +9274,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1832.75, 414.72998, 274.0, 18.0 ],
-					"restore" : [ 3 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto gui_selector @invisible 1 @autorestore 0",
-					"varname" : "u838013293"
+					"varname" : "u461015033"
 				}
 
 			}
@@ -9331,7 +9333,7 @@
 					}
 ,
 					"text" : "pattr @bindto gui::kinect_poll_time @invisible 1 @autorestore 0",
-					"varname" : "u320013291"
+					"varname" : "u814015027"
 				}
 
 			}
@@ -9691,7 +9693,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_area @invisible 1 @autorestore 0",
-									"varname" : "u574013320"
+									"varname" : "u358015002"
 								}
 
 							}
@@ -9709,13 +9711,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 70.0, 30.0, 175.0, 29.0 ],
-									"restore" : [ 3 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::gui_selector @invisible 1 @autorestore 0",
-									"varname" : "u509013324"
+									"varname" : "u864015065"
 								}
 
 							}
@@ -10083,7 +10085,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-5",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
@@ -10097,7 +10098,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-21",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
@@ -10237,7 +10237,7 @@
 					}
 ,
 					"text" : "pattr @bindto gui::kinect_arc_mode @invisible 1 @autorestore 0",
-					"varname" : "u525013315"
+					"varname" : "u053015017"
 				}
 
 			}
@@ -10263,9 +10263,7 @@
 						"gui::bounds_src_dim" : -2,
 						"gui::bounds_src_coordinates" : -1,
 						"gui::grid_z_size" : 1,
-						"gui::output_max" : 1,
-						"gui::output_sampler_presetpath" : 9,
-						"gui::output_sampler_recall" : 10
+						"gui::output_max" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
@@ -10387,13 +10385,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 10.0, 311.0, 18.0 ],
-									"restore" : [ 3 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::gui_selector @invisible 1 @autorestore 0",
-									"varname" : "u677013311"
+									"varname" : "u876015013"
 								}
 
 							}
@@ -11121,7 +11119,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::output_midi_config @invisible 1 @autorestore 0",
-									"varname" : "u163013338"
+									"varname" : "u879015072"
 								}
 
 							}
@@ -11188,7 +11186,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::output_sampler_config @invisible 1 @autorestore 0",
-									"varname" : "u934006926"
+									"varname" : "u942008077"
 								}
 
 							}
@@ -11457,7 +11455,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u740006879"
+									"varname" : "u800007979"
 								}
 
 							}
@@ -11481,7 +11479,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u546006877"
+									"varname" : "u273006780"
 								}
 
 							}
@@ -11772,7 +11770,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u254006889"
+									"varname" : "u307006502"
 								}
 
 							}
@@ -11796,7 +11794,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u465008313"
+									"varname" : "u691006556"
 								}
 
 							}
@@ -14544,7 +14542,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_depth_max @invisible 1 @autorestore 1",
-									"varname" : "u484006826"
+									"varname" : "u087006732"
 								}
 
 							}
@@ -14567,7 +14565,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_depth_min @invisible 1 @autorestore 1",
-									"varname" : "u583006814"
+									"varname" : "u907006411"
 								}
 
 							}
@@ -14826,13 +14824,13 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 62.5, 505.25, 183.5, 29.0 ],
-									"restore" : [ 3 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto parent::gui_selector @invisible 1 @autorestore 0",
-									"varname" : "u765006407"
+									"varname" : "u298006563"
 								}
 
 							}
@@ -14883,7 +14881,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_src_dim @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u385006402"
+									"varname" : "u169007955"
 								}
 
 							}
@@ -14906,7 +14904,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_src_coordinates @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u556006398"
+									"varname" : "u533006558"
 								}
 
 							}
@@ -14930,7 +14928,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_area @invisible 1 @autorestore 0",
-									"varname" : "u457006416"
+									"varname" : "u164007808"
 								}
 
 							}
@@ -14967,7 +14965,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::kinect_arc_apply @invisible 1 @autorestore 0",
-									"varname" : "u684006408"
+									"varname" : "u910007804"
 								}
 
 							}
@@ -15032,7 +15030,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_src_dim @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u495006404"
+									"varname" : "u905007802"
 								}
 
 							}
@@ -15055,7 +15053,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_src_coordinates @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u170006818"
+									"varname" : "u818006553"
 								}
 
 							}
@@ -15650,7 +15648,7 @@
 					}
 ,
 					"text" : "pattr @bindto gui::kinect_poll_time @invisible 1 @autorestore 0",
-					"varname" : "u065008303"
+					"varname" : "u270006403"
 				}
 
 			}
@@ -15711,7 +15709,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::num[4] @invisible 1 @autorestore 0",
-									"varname" : "u956006401"
+									"varname" : "u736006819"
 								}
 
 							}
@@ -15734,7 +15732,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::num[3] @invisible 1 @autorestore 0",
-									"varname" : "u758006743"
+									"varname" : "u315007790"
 								}
 
 							}
@@ -15757,7 +15755,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::num[2] @invisible 1 @autorestore 0",
-									"varname" : "u941006737"
+									"varname" : "u510007797"
 								}
 
 							}
@@ -15780,7 +15778,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::num[1] @invisible 1 @autorestore 0",
-									"varname" : "u474006736"
+									"varname" : "u262007799"
 								}
 
 							}
@@ -15958,7 +15956,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::gui::bounds_src_coordinates @thru 0 @invisible 1 @autorestore 0",
-													"varname" : "u466006731"
+													"varname" : "u432006846"
 												}
 
 											}
@@ -16392,7 +16390,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::gui::kinect_flip_v @invisible 1 @autorestore 0",
-													"varname" : "u796006741"
+													"varname" : "u999006857"
 												}
 
 											}
@@ -16415,7 +16413,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::gui::kinect_flip_h @invisible 1 @autorestore 0",
-													"varname" : "u214006765"
+													"varname" : "u237006820"
 												}
 
 											}
@@ -16657,7 +16655,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_src_dim @invisible 1 @autorestore 0",
-									"varname" : "u887006763"
+									"varname" : "u104006824"
 								}
 
 							}
@@ -16681,7 +16679,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_src_coordinates @invisible 1 @autorestore 0",
-									"varname" : "u832006757"
+									"varname" : "u444006825"
 								}
 
 							}
@@ -16704,7 +16702,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::kinect_arc_method @invisible 1 @autorestore 0",
-									"varname" : "u031006756"
+									"varname" : "u599006868"
 								}
 
 							}
@@ -16728,7 +16726,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::kinect_arc_apply @invisible 1 @autorestore 0",
-									"varname" : "u413006755"
+									"varname" : "u654006869"
 								}
 
 							}
@@ -16985,7 +16983,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::kinect_arc_fov @invisible 1 @autorestore 0",
-									"varname" : "u514006749"
+									"varname" : "u402006863"
 								}
 
 							}
@@ -17249,7 +17247,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::kinect_fov_h @invisible 1 @autorestore 0",
-									"varname" : "u942006768"
+									"varname" : "u923006828"
 								}
 
 							}
@@ -17273,7 +17271,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::kinect_fov_v @invisible 1 @autorestore 0",
-									"varname" : "u470005480"
+									"varname" : "u181006835"
 								}
 
 							}
@@ -18226,7 +18224,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::kinect_fov_v @invisible 1 @autorestore 0",
-																	"varname" : "u376005476"
+																	"varname" : "u620007704"
 																}
 
 															}
@@ -18295,7 +18293,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto parent::parent::area_mm @invisible 1 @autorestore 0",
-																	"varname" : "u331006004"
+																	"varname" : "u228008309"
 																}
 
 															}
@@ -18319,7 +18317,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto parent::parent::parent::gui::bounds_src_dim @invisible 1 @autorestore 0",
-																	"varname" : "u858005465"
+																	"varname" : "u559006858"
 																}
 
 															}
@@ -18342,7 +18340,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::kinect_fov_h @invisible 1 @autorestore 0",
-																	"varname" : "u588005466"
+																	"varname" : "u498013344"
 																}
 
 															}
@@ -18365,7 +18363,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::parent::ARCorrection::kinect_dim @invisible 1 @thru 0",
-																	"varname" : "u950005463"
+																	"varname" : "u219006859"
 																}
 
 															}
@@ -18779,7 +18777,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1",
-																	"varname" : "u757005472"
+																	"varname" : "u809007727"
 																}
 
 															}
@@ -18802,7 +18800,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1",
-																	"varname" : "u237006000"
+																	"varname" : "u801006492"
 																}
 
 															}
@@ -18825,7 +18823,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::grid_threshold @invisible 1",
-																	"varname" : "u038006008"
+																	"varname" : "u318006497"
 																}
 
 															}
@@ -18848,7 +18846,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::grid_gain @invisible 1",
-																	"varname" : "u143008368"
+																	"varname" : "u584008422"
 																}
 
 															}
@@ -18871,7 +18869,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::grid_out_dim @invisible 1",
-																	"varname" : "u100006071"
+																	"varname" : "u849007731"
 																}
 
 															}
@@ -18894,7 +18892,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::bounds_depth_max @invisible 1 @autorestore 0",
-																	"varname" : "u590006005"
+																	"varname" : "u672007730"
 																}
 
 															}
@@ -18917,7 +18915,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::bounds_depth_min @invisible 1",
-																	"varname" : "u709006006"
+																	"varname" : "u792018981"
 																}
 
 															}
@@ -18940,7 +18938,7 @@
 																	}
 ,
 																	"text" : "pattr @bindto ::sonorium::grid_spacing @invisible 1 @autorestore 0",
-																	"varname" : "u954006007"
+																	"varname" : "u140018968"
 																}
 
 															}
@@ -19298,7 +19296,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1",
-													"varname" : "u167005454"
+													"varname" : "u839018967"
 												}
 
 											}
@@ -19520,7 +19518,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::2Dmatrix_path @invisible 1 @autorestore 0",
-													"varname" : "u827006003"
+													"varname" : "u575018961"
 												}
 
 											}
@@ -19585,7 +19583,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_file @invisible 1 @autorestore 0",
-													"varname" : "u664006550"
+													"varname" : "u498019180"
 												}
 
 											}
@@ -19679,7 +19677,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::2Dmatrix_path @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u711008063"
+													"varname" : "u509018977"
 												}
 
 											}
@@ -19717,7 +19715,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_save @invisible 1 @autorestore 0",
-													"varname" : "u346008065"
+													"varname" : "u393018979"
 												}
 
 											}
@@ -19754,7 +19752,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_path @invisible 1 @autorestore 0",
-													"varname" : "u460008067"
+													"varname" : "u000018987"
 												}
 
 											}
@@ -19778,7 +19776,7 @@
 													}
 ,
 													"text" : "pattr @bindto ::sonorium::parent::preset_slotnames @invisible 1 @autorestore 0",
-													"varname" : "u240008069"
+													"varname" : "u027018983"
 												}
 
 											}
@@ -19967,7 +19965,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::gui::grid_apply @invisible 1 @autorestore 0",
-													"varname" : "u612008462"
+													"varname" : "u222018957"
 												}
 
 											}
@@ -20019,7 +20017,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::gui::bounds_src_dim @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u472008460"
+													"varname" : "u147018947"
 												}
 
 											}
@@ -20042,7 +20040,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::gui::grid_spacing @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u897008047"
+													"varname" : "u772019178"
 												}
 
 											}
@@ -20065,7 +20063,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::gui::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u876008049"
+													"varname" : "u616018963"
 												}
 
 											}
@@ -20088,7 +20086,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::gui::grid_x_size @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u927008051"
+													"varname" : "u912018965"
 												}
 
 											}
@@ -20697,7 +20695,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_depth_min @invisible 1 @autorestore 0",
-									"varname" : "u423008054"
+									"varname" : "u877018918"
 								}
 
 							}
@@ -20721,7 +20719,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::kinect_fov_v @invisible 1 @autorestore 0",
-									"varname" : "u908008044"
+									"varname" : "u069018934"
 								}
 
 							}
@@ -20745,7 +20743,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::kinect_fov_h @invisible 1 @autorestore 0",
-									"varname" : "u291008059"
+									"varname" : "u575018936"
 								}
 
 							}
@@ -20881,7 +20879,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::ARCorrection::kinect_dim @invisible 1",
-									"varname" : "u901008060"
+									"varname" : "u487018938"
 								}
 
 							}
@@ -20905,7 +20903,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::gui::bounds_src_dim @invisible 1 @autorestore 0",
-									"varname" : "u823008027"
+									"varname" : "u511018940"
 								}
 
 							}
@@ -22743,13 +22741,6 @@
 				"name" : "graphical_interface.maxpat",
 				"bootpath" : "/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/main",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ta.symbolchange.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/ta-max/Control",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/TA-Library/patchers/ta-max/Control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
