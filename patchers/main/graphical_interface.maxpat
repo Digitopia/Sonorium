@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
+		"rect" : [ 1.0, 44.0, 610.0, 806.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -48,6 +48,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"rc_port\" : número da porta usada para controlo remoto / remote control port number",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
@@ -124,6 +125,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_osc_sys\" : enviar dados do sonorium por OSC / send system data through OSC",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-40",
@@ -173,7 +175,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_sys @invisible 1 @autorestore 0",
-					"varname" : "u006000145"
+					"varname" : "u186016663"
 				}
 
 			}
@@ -195,6 +197,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_osc_skeleton\" : enviar dados do esqueleto por OSC / send skeleton data through OSC",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-28",
@@ -244,7 +247,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_skeleton @invisible 1 @autorestore 0",
-					"varname" : "u515000146"
+					"varname" : "u775016656"
 				}
 
 			}
@@ -865,7 +868,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "open audio preferences window",
+					"annotation" : "\"dspstatus\" : abrir janela de preferências áudio / open audio preferences window",
 					"bordercolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 					"borderoncolor" : [ 0.4, 0.4, 0.4, 0.0 ],
 					"fontface" : 3,
@@ -881,7 +884,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 516.0, 1237.0, 32.0, 32.0 ],
 					"rounded" : 64.0,
-					"text" : "+"
+					"text" : "+",
+					"varname" : "dspstatus"
 				}
 
 			}
@@ -969,7 +973,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.375, 235.25, 111.0, 18.0 ],
+					"patching_rect" : [ 560.375, 235.25, 111.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 431.14209, 158.826187, 111.0, 18.0 ],
 					"text" : "correct capture area ? "
@@ -978,6 +982,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"kinect_arc\" : correcção da área de captura / capture area correction",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"id" : "obj-84",
@@ -986,7 +991,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 536.375, 235.25, 20.0, 20.0 ],
+					"patching_rect" : [ 538.375, 235.25, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 405.14209, 156.826187, 25.0, 25.0 ],
 					"varname" : "toggle[1]"
@@ -1030,6 +1035,7 @@
 , 			{
 				"box" : 				{
 					"activecolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+					"annotation" : "\"kinect_arc_method\" : modo de correcção automático / autoamtic correction mode",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"disabled" : [ 0, 0 ],
 					"id" : "obj-113",
@@ -1050,6 +1056,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"kinect_arc_apply\" : aplicar correcções da área de captura / apply capture area corrections",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bgovercolor" : [ 0.466667, 0.752941, 0.894118, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
@@ -1091,6 +1098,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"kinect_arc_fov\" : correcção automática usando proporções dos ângulos de visão (FOV) / auto-correct using FOV proportions",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"id" : "obj-119",
@@ -1103,29 +1111,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 406.14209, 196.076172, 18.0, 18.0 ],
 					"varname" : "toggle"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"clicktabcolor" : [ 0.929412, 0.905882, 0.560784, 0.5 ],
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"htabcolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
-					"id" : "obj-37",
-					"maxclass" : "tab",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 526.375, 324.0, 143.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 512.89209, 186.5, 67.75, 18.0 ],
-					"rounded" : 6.0,
-					"segmented" : 1,
-					"tabcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
-					"tabs" : [ "video", "picture" ],
-					"varname" : "tab"
 				}
 
 			}
@@ -1146,7 +1131,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "",
+					"annotation" : "abrir ajuda (eixos e coordenadas) / open help (axis and coordinates)",
 					"bgcolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"fontface" : 3,
 					"fontname" : "Arial",
@@ -1454,7 +1439,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "open link in web browser",
+					"annotation" : "abrir link no browser / open link in web browser",
 					"bgcolor" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontface" : 3,
 					"fontname" : "Arial",
@@ -1475,7 +1460,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "open link in web browser",
+					"annotation" : "abrir link no browser / open link in web browser",
 					"bgcolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontface" : 3,
 					"fontname" : "Arial",
@@ -1527,12 +1512,13 @@
 					}
 ,
 					"text" : "pattr @bindto parent::proeasy @invisible 1 @autorestore 0 @initial 1",
-					"varname" : "u212006173"
+					"varname" : "u199016638"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"ezdac\" : (des)ligar som / turn sound on or off",
 					"bgcolor" : [ 0.509804, 0.509804, 0.509804, 0.0 ],
 					"id" : "obj-8",
 					"maxclass" : "ezdac~",
@@ -1540,12 +1526,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 678.75, 1838.0, 36.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 549.0, 1235.0, 36.0, 36.0 ]
+					"presentation_rect" : [ 549.0, 1235.0, 36.0, 36.0 ],
+					"varname" : "ezdac"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"sampler_volume\" : volume geral do sampler / sampler master volume",
 					"focusbordercolor" : [ 0.0, 0.019608, 0.078431, 0.0 ],
 					"fontface" : 3,
 					"id" : "obj-275",
@@ -1709,6 +1697,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"output_description\" : descrição do output do prest / preset output description",
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"frgb" : 0.0,
@@ -1720,7 +1709,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 744.25, 1853.0, 113.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.000011, 1133.5, 571.0, 74.0 ]
+					"presentation_rect" : [ 15.000011, 1133.5, 571.0, 74.0 ],
+					"varname" : "output_description"
 				}
 
 			}
@@ -1743,6 +1733,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_sampler\" : sampler on/off",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-286",
@@ -1760,6 +1751,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"output_sampler_config\" : abrir janela de configuração do sampler / open sampler editor window",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bgovercolor" : [ 0.258824, 0.517647, 0.709804, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
@@ -1784,6 +1776,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"output_midi_config\" : abrir janela de configuração da saída MIDI / open MIDI output editor window",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bgovercolor" : [ 0.258824, 0.517647, 0.709804, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
@@ -1842,6 +1835,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "actualizar lista de dispositivos MIDI / refresh MIDI device list",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bgovercolor" : [ 0.258824, 0.517647, 0.709804, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
@@ -1866,6 +1860,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"midi_device\" : selecção do dispositivo MIDI de saída / MIDI output device selector",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bgcolor2" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"fontface" : 1,
@@ -1891,6 +1886,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_midi\" : midi output on/off",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-293",
@@ -1959,6 +1955,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_osc_IP\"(atom) : endereço IP / Internet Protocol address",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"fontface" : 1,
@@ -1979,6 +1976,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_osc_IP\"(atom) : endereço IP / Internet Protocol address",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"fontface" : 1,
@@ -1999,6 +1997,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_osc_IP\"(atom) : endereço IP / Internet Protocol address",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"fontface" : 1,
@@ -2019,6 +2018,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_osc_IP\"(atom) : endereço IP / Internet Protocol address",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"fontface" : 1,
@@ -2039,6 +2039,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_osc_port\" : número da porta de saída / output port number  ",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"fontface" : 1,
@@ -2060,6 +2061,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"parent::dataout::output_osc_grid\" : enviar grelha por OSC / send grid data through OSC",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-302",
@@ -2110,25 +2112,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"frgb" : 0.0,
-					"id" : "obj-260",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 715.0, 1190.0, 273.0, 98.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 595.0, 963.000061, 273.0, 98.0 ],
-					"text" : "warn user (by color change) that changes are not applied befor hitting this button \n\n+\n\nadd \"completion bar\""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -2163,7 +2146,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "\"Slice Preview\" : preview data in each depth slice (Z).",
+					"annotation" : "\"grid_slice_preview\" : selecção de previsualização de um determinada fatia de profundidade(z) / select depth(z) preview slices ",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bgcolor2" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"fontface" : 1,
@@ -2188,7 +2171,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : " \"APPLY\" : once you've set the virtual grid to your needs you must hit \"apply\" for those changes to take place. This might take a while, be patient...",
+					"annotation" : "\"grid_apply\" : aplicar alterações na grelha virtual (seta tarefa pode demorar bast ante tempo) / apply changes made to the virtual grid (this may take a while)",
 					"bgcolor" : [ 0.937255, 0.611765, 0.258824, 0.5 ],
 					"bgovercolor" : [ 0.2, 0.8, 0.6, 0.5 ],
 					"bordercolor" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
@@ -2277,7 +2260,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "\"Spacing\" : define empty space between each spot. The value is the same for the 3 dimensions (x, y and z) and is proportional. Ex: spacing = 0.3, spot size is 70% of the original dimension, while empty space is 30%. ",
+					"annotation" : "\"grid_spacing\" : percentagem (0 ~ 1.0 = 0 ~ 100%) de espaço vazio entre cada hotspot / percentage (0 ~ 1.0 = 0 ~ 100%) of empty space between each hotspot",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"fontface" : 1,
@@ -2292,7 +2275,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 490.625031, 1227.0, 60.0, 24.0 ],
+					"patching_rect" : [ 491.625031, 1227.0, 60.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 368.90332, 906.500061, 60.0, 24.0 ],
 					"tricolor" : [ 0.2, 0.8, 0.6, 1.0 ],
@@ -2302,7 +2285,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : " \"Spots\" : define the number of spots in each axis: x(width) , y(height) and z(depth). ",
+					"annotation" : "\"grid_z_size\" : define o número de hotspots no eixo Z(profundidade) / define the number of hotspots used in the Z axis (depth)",
 					"bordercolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -2326,7 +2309,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : " \"Spots\" : define the number of spots in each axis: x(width) , y(height) and z(depth). ",
+					"annotation" : "\"grid_y_size\" : define o número de hotspots no eixo Y(altura) / define the number of hotspots used in the Y axis (height)",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"fontface" : 1,
@@ -2351,7 +2334,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : " \"Spots\" : define the number of spots in each axis: x(width) , y(height) and z(depth). ",
+					"annotation" : "\"grid_x_size\" : define o número de hotspots no eixo X(largura) / define the number of hotspots used in the X axis (width)",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"fontface" : 1,
@@ -2393,7 +2376,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "This section defines the 3D virtual grid, albeit how many spots (smaller cubes) are inside the larger virtual cube.",
+					"annotation" : " Nesta secção define-se a grelha virtual tridimensional, isto é, quantos hotspots (cubos) existem /  This section defines the 3D virtual grid, albeit how many spots (smaller cubes) are inside the larg",
 					"autofit" : 1,
 					"id" : "obj-274",
 					"maxclass" : "fpic",
@@ -2479,7 +2462,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "\"Depth Boundary\" : defines the cube minimum and maximum depth. Minimum depth is the closest you can get to the Kinect while maximum depth is just the opposite. ",
+					"annotation" : "\"bounds_depth_max\" :  distância(ou profundidade, z) máxima (em metros) / maximum depth(z) (in meters)",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontface" : 1,
@@ -2519,7 +2502,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "\"Depth Boundary\" : defines the cube minimum and maximum depth. Minimum depth is the closest you can get to the Kinect while maximum depth is just the opposite. ",
+					"annotation" : "\"bounds_depth_min\" :  distância(ou profundidade, z) mínima (em metros) / minimum depth(z) (in meters)",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontface" : 1,
@@ -2560,7 +2543,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "\"Capture Area\" : defines the percentage of width and height to be used from the video input. ",
+					"annotation" : "\"bounds_area\" : percentagem de largura(x) e altura(y) / width(x) and height(y) percentage",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.4, 0.411765, 0.654902, 1.0 ],
 					"fontface" : 1,
@@ -2585,7 +2568,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "This section defines the virtual cube dimensions. The virtual cube can be seen as the outer side of the virtual grid.  ",
+					"annotation" : "Nesta secção define-se a área de capture para a grelha virtual / This section defines the virtual cube dimensions. The virtual cube can be seen as the outer side of the virtual grid",
 					"autofit" : 1,
 					"id" : "obj-257",
 					"maxclass" : "fpic",
@@ -2714,7 +2697,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "\"Flip\": if your Kinect camera is flipped horizontally or vertically you can use these commands to flip the video capture back to its normal orientation.",
+					"annotation" : "\"kinect_flip_v\" : inversão horizontal / horizontal filp ",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"id" : "obj-218",
@@ -2732,7 +2715,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "\"Flip\": if your Kinect camera is flipped horizontally or vertically you can use these commands to flip the video capture back to its normal orientation.",
+					"annotation" : "\"kinect_flip_v\" : inversão vertical / vertical filp ",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"id" : "obj-219",
@@ -2750,7 +2733,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "\"Connect Device\": By default, if the Kinect is connected to the computer before opening Sonorium, you don't need this step. But if you accidentally connected the Kinect later you can press this button to make the camera available. ",
+					"annotation" : "\"kinect_connect\" : (des)ligar kinect / kinect on or off ",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bgovercolor" : [ 0.466667, 0.752941, 0.894118, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
@@ -2777,7 +2760,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "In this section you can set up your Kinect device.",
+					"annotation" : "Nesta secção pode definir parâmetros relativos à Kinect / In this section you can set up your Kinect device ",
 					"autofit" : 1,
 					"id" : "obj-234",
 					"maxclass" : "fpic",
@@ -2826,12 +2809,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"grid_threshold\" : limiar de activação de um hotspot / hotspot activation threshold ",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
-					"hint" : "output threshold",
+					"hint" : "",
 					"htricolor" : [ 0.929412, 0.905882, 0.560784, 1.0 ],
 					"id" : "obj-161",
 					"maxclass" : "number",
@@ -2851,12 +2835,13 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"grid_gain\" : interpolação / smooth interpolation",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
-					"hint" : "smooth interpolation",
+					"hint" : "",
 					"htricolor" : [ 0.929412, 0.905882, 0.560784, 1.0 ],
 					"id" : "obj-158",
 					"maxclass" : "flonum",
@@ -2876,7 +2861,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "matrix resolution = val * x_spots * y_spots",
+					"annotation" : "\"grid_resolution\" : resolução da matriz de cada hotspot / hotspot resolution matrix (val * x_spots * y_spots)",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"fontname" : "Arial",
@@ -2933,7 +2918,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::proeasy @invisible 1 @autorestore 0 @initial 1",
-					"varname" : "u798000083"
+					"varname" : "u014015189"
 				}
 
 			}
@@ -2971,7 +2956,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::proeasy @invisible 1 @autorestore 0 @initial 1",
-					"varname" : "u843000081"
+					"varname" : "u623016576"
 				}
 
 			}
@@ -4680,7 +4665,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_spacing @invisible 1 @autorestore 0",
-									"varname" : "u925000059"
+									"varname" : "u597016571"
 								}
 
 							}
@@ -4717,7 +4702,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_apply @invisible 1 @autorestore 0",
-									"varname" : "u294000058"
+									"varname" : "u350016575"
 								}
 
 							}
@@ -4795,7 +4780,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u762000055"
+									"varname" : "u083016999"
 								}
 
 							}
@@ -4819,7 +4804,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u084000054"
+									"varname" : "u926015188"
 								}
 
 							}
@@ -4843,7 +4828,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u059000052"
+									"varname" : "u281015186"
 								}
 
 							}
@@ -5129,7 +5114,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::bounds_area @invisible 1 @autorestore 0",
-													"varname" : "u667000044"
+													"varname" : "u074014998"
 												}
 
 											}
@@ -5166,7 +5151,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::kinect_fov_v @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u943000041"
+													"varname" : "u212015190"
 												}
 
 											}
@@ -5524,7 +5509,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::bounds_area @invisible 1 @autorestore 0",
-													"varname" : "u492006192"
+													"varname" : "u140016052"
 												}
 
 											}
@@ -5561,7 +5546,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::kinect_fov_h @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u130006199"
+													"varname" : "u451016068"
 												}
 
 											}
@@ -5855,7 +5840,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::bounds_depth_max @invisible 1 @autorestore 0",
-									"varname" : "u311000021"
+									"varname" : "u414016058"
 								}
 
 							}
@@ -5908,7 +5893,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::bounds_depth_min @invisible 1 @autorestore 0",
-									"varname" : "u793006190"
+									"varname" : "u957016026"
 								}
 
 							}
@@ -6417,7 +6402,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_sampler @invisible 1 @autorestore 0",
-					"varname" : "u197000025"
+					"varname" : "u723016059"
 				}
 
 			}
@@ -6454,7 +6439,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_midi @invisible 1 @autorestore 0",
-					"varname" : "u359000022"
+					"varname" : "u437016057"
 				}
 
 			}
@@ -6492,7 +6477,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_port @invisible 1 @autorestore 0",
-					"varname" : "u628006204"
+					"varname" : "u617016055"
 				}
 
 			}
@@ -6530,7 +6515,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_grid @invisible 1 @autorestore 0",
-					"varname" : "u245014292"
+					"varname" : "u454016933"
 				}
 
 			}
@@ -6878,7 +6863,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_IP @invisible 1 @autorestore 0",
-					"varname" : "u588014398"
+					"varname" : "u455016028"
 				}
 
 			}
@@ -7351,7 +7336,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 603.201721, 1171.5, 95.0, 40.0 ],
+					"patching_rect" : [ 603.201721, 1172.0, 95.0, 40.0 ],
 					"restore" : [ -1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -7820,7 +7805,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "\"FPS\": frames-per-second. You can tweak this parameter if Sonorium is too heavy for your computer. Less fps will make the program run faster.",
+					"annotation" : "\"kinect_fps\" : frames por segundo / frames per second",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
@@ -8140,30 +8125,6 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-26",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 494.375, 287.5, 206.25, 29.0 ],
-					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
-						"parameter_enable" : 0
-					}
-,
-					"text" : "pattr kinect_arc_mode @invisible 1 @initial 0 @autorestore 1",
-					"varname" : "kinect_arc_mode"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 0.4, 1.0 ],
-					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-19",
 					"linecount" : 3,
 					"maxclass" : "newobj",
@@ -8183,6 +8144,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"kinect_fov_h\" : ângulo de visão horizontal da kinect (em graus) / kinect's horizontal field of view (in degrees)",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
@@ -8205,6 +8167,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "\"kinect_fov_v\" : ângulo de visão vertical da kinect (em graus) / kinect's vertical field of view (in degrees)",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
 					"bordercolor" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 					"fontname" : "Arial",
@@ -9035,15 +8998,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -9717,16 +9671,6 @@
 				"patchline" : 				{
 					"color" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"destination" : [ "obj-121", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
-					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-86", 0 ]
