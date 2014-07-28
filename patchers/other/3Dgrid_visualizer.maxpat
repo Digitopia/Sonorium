@@ -54,13 +54,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 447.0, 159.0, 328.0, 18.0 ],
-					"restore" : [ 4 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1 @autorestore 0",
-					"varname" : "u089008716"
+					"varname" : "u767001385"
 				}
 
 			}
@@ -91,13 +91,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 330.0, 100.0, 329.0, 18.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0",
-					"varname" : "u438008718"
+					"varname" : "u531001392"
 				}
 
 			}
@@ -128,13 +128,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 307.0, 41.0, 329.0, 18.0 ],
-					"restore" : [ 4 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1 @autorestore 0",
-					"varname" : "u256008720"
+					"varname" : "u458001412"
 				}
 
 			}
@@ -179,13 +179,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 765.0, 350.0, 390.0, 18.0 ],
-					"restore" : [ 2.714778, 1.969552, 4.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::calcs::cube_dimensions @invisible 1 @autorestore 0",
-					"varname" : "u373008722"
+					"varname" : "u709001404"
 				}
 
 			}
@@ -216,13 +216,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 499.5, 285.0, 361.0, 18.0 ],
-					"restore" : [ 0.64476, 1.969552, 0.95 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::calcs::dimensions @invisible 1 @autorestore 0",
-					"varname" : "u536008724"
+					"varname" : "u800001375"
 				}
 
 			}
@@ -279,8 +279,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 55.0, 235.0, 172.0, 16.0 ],
-					"text" : "reset, position 1 2 -2, rotatexyz 0 0 0"
+					"patching_rect" : [ 55.0, 235.0, 186.0, 16.0 ],
+					"text" : "reset, position 0.75 2 -8, rotatexyz 0 0 0"
 				}
 
 			}
@@ -484,8 +484,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 260.0, 133.0, 18.0 ],
-					"text" : "jit.gl.handle @auto_rotate 0"
+					"patching_rect" : [ 30.0, 260.0, 61.0, 18.0 ],
+					"text" : "jit.gl.handle"
 				}
 
 			}
@@ -527,8 +527,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 14.0, 335.0, 181.0, 18.0 ],
-					"text" : "jit.window display @floating 1 @fsaa 1"
+					"patching_rect" : [ 14.0, 335.0, 249.0, 18.0 ],
+					"text" : "jit.window display @floating 1 @fsaa 1 @pos 1000 40"
 				}
 
 			}

@@ -23,7 +23,7 @@ function drawCubes() {
 		for (yi = 0; yi < yc; yi++) {
 			// draw cubes on X axis 
 			for (xi = 0; xi < xc; xi++){
-				outlet(0, "moveto "+(xi*(cubeWidth/xc)*2-cubeWidth)+" "+(yi*(cubeHeight/yc)*2-cubeHeight)+" "+((zi*(cubeDepth/zc)*2-cubeDepth-8)));
+				outlet(0, "moveto "+(xi*(cubeWidth/xc)*2-cubeWidth)+" "+(yi*(cubeHeight/yc)*2-cubeHeight)+" "+((zi*(cubeDepth/zc)*2-cubeDepth)));
 				outlet(0, "cube "+width+" "+height+" "+depth);
 			}
  		}
