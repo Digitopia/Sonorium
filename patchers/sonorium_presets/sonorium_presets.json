@@ -1,0 +1,173 @@
+{
+	"pattrstorage" : 	{
+		"name" : "sonorium_presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "JoaoMenezes_soundscape",
+				"data" : 				{
+					"info_text" : [ 4, "x", 4, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
+					"2Dmatrix_path" : [ "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/sonorium_presets/01_sonorium_presets.jxf" ],
+					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
+					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
+					"ARCorrection::kinect_dim" : [ 560, 406 ],
+					"dataout::output_presets" : [ 1 ],
+					"gui::bounds_src_dim" : [ 560, 406 ],
+					"gui::bounds_src_coordinates" : [ 40, 30, 600, 450 ],
+					"gui::kinect_fov_v" : [ 43 ],
+					"gui::kinect_fov_h" : [ 57 ],
+					"gui::kinect_arc_fov" : [ 1 ],
+					"gui::kinect_arc_method" : [ 0 ],
+					"gui::kinect_fps" : [ 12.0 ],
+					"gui::kinect_arc" : [ 1 ],
+					"gui::kinect_flip_v" : [ 1 ],
+					"gui::kinect_flip_h" : [ 1 ],
+					"gui::bounds_area" : [ 100 ],
+					"gui::bounds_depth_min" : [ 2500.0 ],
+					"gui::bounds_depth_max" : [ 6500.0 ],
+					"gui::grid_x_size" : [ 4 ],
+					"gui::grid_y_size" : [ 1 ],
+					"gui::grid_spacing" : [ 0.05 ],
+					"gui::grid_resolution" : [ 4 ],
+					"gui::grid_gain" : [ 0.6 ],
+					"gui::grid_threshold" : [ 0 ],
+					"gui::grid_slice_preview" : [ "overall" ],
+					"gui::midi_device" : [ "from Max 1" ],
+					"gui::arc_left" : [ 40 ],
+					"gui::arc_right" : [ 600 ],
+					"gui::arc_top" : [ 30 ],
+					"gui::arc_bottom" : [ 450 ],
+					"gui::rc_port" : [ 7001 ],
+					"gui::grid_z_size" : [ 4 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "PedroAugusto_soundscape",
+				"data" : 				{
+					"info_text" : [ 4, "x", 4, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
+					"2Dmatrix_path" : [ "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/sonorium_presets/02_sonorium_presets.jxf" ],
+					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
+					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
+					"ARCorrection::kinect_dim" : [ 560, 406 ],
+					"dataout::output_presets" : [ 1 ],
+					"gui::bounds_src_dim" : [ 560, 406 ],
+					"gui::bounds_src_coordinates" : [ 40, 30, 600, 450 ],
+					"gui::kinect_fov_v" : [ 43 ],
+					"gui::kinect_fov_h" : [ 57 ],
+					"gui::kinect_arc_fov" : [ 1 ],
+					"gui::kinect_arc_method" : [ 0 ],
+					"gui::kinect_fps" : [ 12.0 ],
+					"gui::kinect_arc" : [ 1 ],
+					"gui::kinect_flip_v" : [ 1 ],
+					"gui::kinect_flip_h" : [ 1 ],
+					"gui::bounds_area" : [ 100 ],
+					"gui::bounds_depth_min" : [ 2500.0 ],
+					"gui::bounds_depth_max" : [ 6500.0 ],
+					"gui::grid_x_size" : [ 4 ],
+					"gui::grid_y_size" : [ 1 ],
+					"gui::grid_spacing" : [ 0.05 ],
+					"gui::grid_resolution" : [ 4 ],
+					"gui::grid_gain" : [ 0.6 ],
+					"gui::grid_threshold" : [ 0 ],
+					"gui::grid_slice_preview" : [ "overall" ],
+					"gui::midi_device" : [ "from Max 1" ],
+					"gui::arc_left" : [ 40 ],
+					"gui::arc_right" : [ 600 ],
+					"gui::arc_top" : [ 30 ],
+					"gui::arc_bottom" : [ 450 ],
+					"gui::rc_port" : [ 7001 ],
+					"gui::grid_z_size" : [ 4 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "OscarRodrigues_soundscape",
+				"data" : 				{
+					"info_text" : [ 4, "x", 4, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
+					"2Dmatrix_path" : [ "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/sonorium_presets/03_sonorium_presets.jxf" ],
+					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
+					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
+					"ARCorrection::kinect_dim" : [ 560, 406 ],
+					"dataout::output_presets" : [ 1 ],
+					"gui::bounds_src_dim" : [ 560, 406 ],
+					"gui::bounds_src_coordinates" : [ 40, 30, 600, 450 ],
+					"gui::kinect_fov_v" : [ 43 ],
+					"gui::kinect_fov_h" : [ 57 ],
+					"gui::kinect_arc_fov" : [ 1 ],
+					"gui::kinect_arc_method" : [ 0 ],
+					"gui::kinect_fps" : [ 12.0 ],
+					"gui::kinect_arc" : [ 1 ],
+					"gui::kinect_flip_v" : [ 1 ],
+					"gui::kinect_flip_h" : [ 1 ],
+					"gui::bounds_area" : [ 100 ],
+					"gui::bounds_depth_min" : [ 2500.0 ],
+					"gui::bounds_depth_max" : [ 6500.0 ],
+					"gui::grid_x_size" : [ 4 ],
+					"gui::grid_y_size" : [ 1 ],
+					"gui::grid_spacing" : [ 0.05 ],
+					"gui::grid_resolution" : [ 4 ],
+					"gui::grid_gain" : [ 0.6 ],
+					"gui::grid_threshold" : [ 0 ],
+					"gui::grid_slice_preview" : [ "overall" ],
+					"gui::midi_device" : [ "from Max 1" ],
+					"gui::arc_left" : [ 40 ],
+					"gui::arc_right" : [ 600 ],
+					"gui::arc_top" : [ 30 ],
+					"gui::arc_bottom" : [ 450 ],
+					"gui::rc_port" : [ 7001 ],
+					"gui::grid_z_size" : [ 4 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"name" : "JoseGomes_soundscape",
+				"data" : 				{
+					"info_text" : [ 4, "x", 5, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
+					"2Dmatrix_path" : [ "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/sonorium_presets/04_sonorium_presets.jxf" ],
+					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
+					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
+					"ARCorrection::kinect_dim" : [ 560, 406 ],
+					"dataout::output_presets" : [ 1 ],
+					"gui::bounds_src_dim" : [ 560, 406 ],
+					"gui::bounds_src_coordinates" : [ 40, 30, 600, 450 ],
+					"gui::kinect_fov_v" : [ 43 ],
+					"gui::kinect_fov_h" : [ 57 ],
+					"gui::kinect_arc_fov" : [ 1 ],
+					"gui::kinect_arc_method" : [ 0 ],
+					"gui::kinect_fps" : [ 12.0 ],
+					"gui::kinect_arc" : [ 1 ],
+					"gui::kinect_flip_v" : [ 1 ],
+					"gui::kinect_flip_h" : [ 1 ],
+					"gui::bounds_area" : [ 100 ],
+					"gui::bounds_depth_min" : [ 2500.0 ],
+					"gui::bounds_depth_max" : [ 6500.0 ],
+					"gui::grid_x_size" : [ 4 ],
+					"gui::grid_y_size" : [ 1 ],
+					"gui::grid_spacing" : [ 0.05 ],
+					"gui::grid_resolution" : [ 4 ],
+					"gui::grid_gain" : [ 0.6 ],
+					"gui::grid_threshold" : [ 0 ],
+					"gui::grid_slice_preview" : [ "overall" ],
+					"gui::midi_device" : [ "from Max 1" ],
+					"gui::arc_left" : [ 40 ],
+					"gui::arc_right" : [ 600 ],
+					"gui::arc_top" : [ 30 ],
+					"gui::arc_bottom" : [ 450 ],
+					"gui::rc_port" : [ 7001 ],
+					"gui::grid_z_size" : [ 5 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

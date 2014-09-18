@@ -1,0 +1,20 @@
+#########################################BUILD INSTRUCTIONS#########################################
+
+1) open ~/patchers/main/SONORIUM.maxpat preferably with MaxMSP 6.1.2 32-bit mode
+
+2) move the file /patchers/main/sonorium_presets.json to the garbage (so that Max doesn't include it automatically when building the application, since it will read from another preset file)
+
+3) go to Max menu and click "File > Build Collective/Application"
+
+4) click the "open script" button and load ~/misc/build_script.txt and build the application into the ~/_final build_/ folder 
+
+5) double-click the application and press "Show Package Contents", then move the files inside ~/_final build_/_add to contents_/ into the application contents. You may then delete the folder ~/_final build_/_add to contents_/ 
+
+6) change the name of ~/final build/ to match sonorium's version (ex: Sonorium 1.0)
+
+7) move the application folder somewhere to the hard-drive (ex: into the applications folder)
+
+8) and finally edit preset files (.json) inside sonorium_presets folder, to match the file paths (audio and matrix files) in your hard-drive, and you're ready to run the app 
+
+ 
+

@@ -31,12 +31,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 510.5, 132.0, 22.0, 18.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 185.0, 95.0, 59.5, 18.0 ],
+					"patching_rect" : [ 226.5, 15.5, 59.5, 18.0 ],
 					"restore" : 					{
 						"fadein" : [ 0.0 ],
 						"fadeout" : [ 0.0 ],
@@ -44,7 +58,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u334000825"
+					"varname" : "u967002324"
 				}
 
 			}
@@ -150,11 +164,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-20",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 284.5, 82.0, 245.5, 18.0 ],
-					"text" : "route clear loop fadein fadeout"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 284.5, 82.0, 301.5, 18.0 ],
+					"text" : "route clear loop fadein fadeout reset"
 				}
 
 			}
@@ -792,7 +806,7 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 350.625, 207.0, 293.5, 207.0 ],
+					"midpoints" : [ 350.5, 207.0, 293.5, 207.0 ],
 					"source" : [ "obj-20", 1 ]
 				}
 
@@ -803,6 +817,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 4 ]
 				}
 
 			}
@@ -869,6 +892,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 520.0, 211.5, 249.5, 211.5 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
