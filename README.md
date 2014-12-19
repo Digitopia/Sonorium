@@ -1,4 +1,4 @@
-Sonorium
+Sonorium (version 1.0, 12.2014) 
 
 Content of Interactive Installation held at Casa da Música
 
