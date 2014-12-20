@@ -250,7 +250,7 @@
 									}
 ,
 									"text" : "pattr @invisible 1 @autorestore 0",
-									"varname" : "u466008852"
+									"varname" : "u707024459"
 								}
 
 							}
@@ -487,7 +487,7 @@
 									}
 ,
 									"text" : "pattr @invisible 1 @autorestore 0",
-									"varname" : "u802008881"
+									"varname" : "u574007904"
 								}
 
 							}
@@ -817,7 +817,7 @@
 					}
 ,
 					"text" : "pattr @invisible 1 @autorestore 1 @thru 0",
-					"varname" : "u513008869"
+					"varname" : "u538006786"
 				}
 
 			}
@@ -840,7 +840,7 @@
 					}
 ,
 					"text" : "pattr @invisible 1 @autorestore 0 @thru 0",
-					"varname" : "u747020585"
+					"varname" : "u631058547"
 				}
 
 			}
@@ -868,8 +868,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 155.0, 252.0, 73.0, 18.0 ],
-					"text" : "regexp [\\\\d]"
+					"patching_rect" : [ 155.0, 222.0, 73.0, 18.0 ],
+					"text" : "regexp (\\\\d+)"
 				}
 
 			}
@@ -886,7 +886,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.0, 217.0, 96.0, 18.0 ],
+					"patching_rect" : [ 155.0, 187.0, 96.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "oi.autovarname",
 						"parameter_enable" : 0
@@ -1246,8 +1246,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/javascript",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/OpenInstruments/javascript",
+				"bootpath" : "/Users/tiago/Documents/Max/Packages/OpenInstruments/javascript",
+				"patcherrelativepath" : "../../../../../Documents/Max/Packages/OpenInstruments/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
