@@ -232,7 +232,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1",
-					"varname" : "u053000691"
+					"varname" : "u930005534"
 				}
 
 			}
@@ -255,7 +255,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1",
-					"varname" : "u546000685"
+					"varname" : "u045005652"
 				}
 
 			}
@@ -306,7 +306,7 @@
 					}
 ,
 					"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1",
-					"varname" : "u187058591"
+					"varname" : "u119005657"
 				}
 
 			}
@@ -855,7 +855,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u727010720"
+									"varname" : "u961005646"
 								}
 
 							}
@@ -878,7 +878,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u171000675"
+									"varname" : "u123005644"
 								}
 
 							}
@@ -901,7 +901,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u192000633"
+									"varname" : "u127005641"
 								}
 
 							}
@@ -1139,7 +1139,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0 @thru 0",
-									"varname" : "u619000677"
+									"varname" : "u226005637"
 								}
 
 							}
@@ -1897,7 +1897,7 @@
 									}
 ,
 									"text" : "pattr @bindto ::sonorium::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u469058585"
+									"varname" : "u784005625"
 								}
 
 							}
@@ -2063,8 +2063,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 490.0, 311.0, 47.0 ],
-					"text" : "poly~ polyMidi 256"
+					"patching_rect" : [ 20.0, 490.0, 331.0, 47.0 ],
+					"text" : "poly~ polyMidi 4096"
 				}
 
 			}
