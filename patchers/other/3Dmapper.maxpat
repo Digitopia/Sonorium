@@ -1285,7 +1285,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 152.0, 203.0, 193.0, 208.0 ],
+						"rect" : [ 152.0, 203.0, 483.0, 202.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
