@@ -4,11 +4,14 @@ Content of Interactive Installation held at Casa da Música
 To download the compiled app go to the releases tab.
 
 
-CHANGE LOG: 
+CHANGE LOG:
+
+version 1.1.0
  - sampler_interface.maxpat: dropfile only allows AIFF and WAV file types
  - sampler_interface.maxpat: dropfile now gives a boot path type
- - sonorium.maxpat: all paths conformed to boot type (ex: /Applications/Sonorium instead of "Macintosh HD:/Applications/Sonorium") 
-
+ - sonorium.maxpat: all paths conformed to boot type (ex: /Applications/Sonorium instead of "Macintosh HD:/Applications/Sonorium")
+ - raised the possible number of hotspots per axis from 12 to 16
+ - added ~/patchers/utilities folder with an example of how to control Sonorium remotely and a patch to draw custom grid matrices  
 
 
 
