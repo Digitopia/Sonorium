@@ -1,0 +1,16 @@
+#########################################BUILD INSTRUCTIONS#########################################
+
+1) open ~/patchers/main/SONORIUM.maxpat preferably with MaxMSP 6.1.2 32-bit mode
+
+2) move the file /patchers/main/sonorium_presets.json to the garbage (so that Max doesn't include it automatically when building the application, since it will read from another preset file)
+
+3) go to Max menu and click "File > Build Collective/Application"
+
+4) click the "open script" button and load ~/misc/build_script.txt and build the application into the ~/_Sonorium-v.v_/ folder, created under the Applications folder
+
+5) double-click the application and press "Show Package Contents", then move files 'jit.openni_config.xml', 'jit.openni_debugrec.xml' and 'skeletonrec.oni' to Contents. Then go Contents/support/ and create a folder named 'java'. Inside the 'java' folder make a folder named 'classes' and another one named 'lib'. Then go to you MaxMSP folder and copy the file max.jar to 'lib' and copy the folder named net (containing the mxj tcp/udp classes) to 'classes'. 
+
+6) and finally copy the folder 'sonorium_presets' to your _Sonorium-v.v_ folder as well as the folder 'audio_files' OR you can make your own presets to load automatically on startup 
+
+ 
+

@@ -1,0 +1,47 @@
+open thispatcher
+
+appicon "C:/Program Files (x86)/Sonorium-1.1 for Windows/media/pics/sonorium_icon.ico"
+
+folder "C:/Program Files (x86)/Sonorium-1.1 for Windows/externals/dp.kinect-v1.0.6"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/externals/main/graphical_interface.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/main/graphical_interface.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/MIDI/Main_MIDIout.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/MIDI/note_interface.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/MIDI/polyMidi.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/MIDI/yMIDIContainer.maxpat"
+
+patcher "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/other/3Dgrid_visualizer.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/other/3Dmapper.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/other/debug-print.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/Sampler/Main_sampler.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/Sampler/polySampler.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/Sampler/sampler_interface.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/patchers/Sampler/yContainer.maxpat"
+
+include "C:/Users/tiago/Documents/Max/TA-Library/patchers/ta-max/Data/ta.f2i.maxpat"
+
+include "C:/Users/tiago/Documents/Max/TA-Library/patchers/ta-max/Lists/ta.listchange.maxpat"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/javascript/oi.autovarname.js"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/javascript/deg2rad.js"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/javascript/jitsketch_talk.js"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/javascript/matrix.fill2Dgrid.js"
+
+include "C:/Program Files (x86)/Sonorium-1.1 for Windows/javascript/rad2deg.js"
+
+folder "C:/Program Files (x86)/Sonorium-1.1 for Windows/media/pics"

@@ -1,10 +1,15 @@
-Sonorium — version 1.1.0 (05.2015)
+Sonorium — version 1.1.0 for Windows (10.11.2015)
 
 Content of Interactive Installation held at Casa da Música
 To download the compiled app go to the releases tab.
 
 
 CHANGE LOG:
+version 1.1.0 FOR WINDOWS
+- replaced jit.openni by dp.kinect
+- fixed dp.kinect arguments and messages
+- fixed preset matrix file paths
+
 
 version 1.1.0
  - sampler_interface.maxpat: dropfile only allows AIFF and WAV file types

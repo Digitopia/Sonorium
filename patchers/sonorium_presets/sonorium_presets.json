@@ -7,7 +7,7 @@
 				"name" : "JoaoMenezes_soundscape",
 				"data" : 				{
 					"info_text" : [ 4, "x", 4, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
-					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium-1.0/sonorium_presets/01_sonorium_presets.jxf" ],
+					"2Dmatrix_path" : [ "C:/Program Files (x86)/Sonorium-1.1/sonorium_presets/01_sonorium_presets.jxf" ],
 					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
 					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
 					"ARCorrection::kinect_dim" : [ 560, 406 ],
@@ -48,7 +48,7 @@
 				"name" : "PedroAugusto_soundscape",
 				"data" : 				{
 					"info_text" : [ 4, "x", 4, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
-					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium-1.0/sonorium_presets/02_sonorium_presets.jxf" ],
+					"2Dmatrix_path" : [ "C:/Program Files (x86)/Sonorium-1.1/sonorium_presets/02_sonorium_presets.jxf" ],
 					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
 					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
 					"ARCorrection::kinect_dim" : [ 560, 406 ],
@@ -89,7 +89,7 @@
 				"name" : "OscarRodrigues_soundscape",
 				"data" : 				{
 					"info_text" : [ 4, "x", 4, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
-					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium-1.0/sonorium_presets/03_sonorium_presets.jxf" ],
+					"2Dmatrix_path" : [ "C:/Program Files (x86)/Sonorium-1.1/sonorium_presets/03_sonorium_presets.jxf" ],
 					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
 					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
 					"ARCorrection::kinect_dim" : [ 560, 406 ],
@@ -130,7 +130,7 @@
 				"name" : "JoseGomes_soundscape",
 				"data" : 				{
 					"info_text" : [ 4, "x", 5, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
-					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium-1.0/sonorium_presets/04_sonorium_presets.jxf" ],
+					"2Dmatrix_path" : [ "C:/Program Files (x86)/Sonorium-1.1/sonorium_presets/04_sonorium_presets.jxf" ],
 					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
 					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
 					"ARCorrection::kinect_dim" : [ 560, 406 ],
