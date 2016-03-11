@@ -1,4 +1,4 @@
-Sonorium — version 1.1.0 (05.2015)
+Sonorium — version 2.0.0 (02.2016)
 
 Content of Interactive Installation held at Casa da Música
 To download the compiled app go to the releases tab.
@@ -6,6 +6,8 @@ To download the compiled app go to the releases tab.
 
 CHANGE LOG:
 
+version 2.0.0
+ - Compatible with Kinect v2 (https://en.wikipedia.org/wiki/Kinect_for_Xbox_One)
 version 1.1.0
  - sampler_interface.maxpat: dropfile only allows AIFF and WAV file types
  - sampler_interface.maxpat: dropfile now gives a boot path type
