@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 588.0, 218.0, 640.0, 480.0 ],
+		"rect" : [ 1963.0, 279.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,70 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-37",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 186.0, 124.5, 38.0, 16.0 ],
+					"presentation_rect" : [ 506.0, 414.0, 0.0, 0.0 ],
+					"text" : "empty"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Clear audio buffer",
+					"bgcolor" : [ 1.0, 0.635294, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 8.0,
+					"id" : "obj-36",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 186.0, 100.5, 29.0, 14.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 56.247936, 33.0, 16.0, 14.0 ],
+					"text" : "C",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Open audio file dialog window",
+					"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.0 ],
+					"id" : "obj-34",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 180.5, 22.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 56.247936, 17.0, 16.0, 16.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-26",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 180.5, 52.0, 68.0, 29.0 ],
+					"text" : "opendialog WAVE AIFF"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -72,7 +136,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u361032895"
+					"varname" : "u266000030"
 				}
 
 			}
@@ -130,9 +194,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 454.0, 150.0, 45.0, 15.0 ],
+					"patching_rect" : [ 454.0, 150.0, 45.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 32.0, 45.0, 15.0 ],
+					"presentation_rect" : [ 5.0, 32.0, 45.0, 16.0 ],
 					"triangle" : 0,
 					"varname" : "fadeout"
 				}
@@ -150,9 +214,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 397.75, 150.0, 45.0, 15.0 ],
+					"patching_rect" : [ 397.75, 150.0, 45.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 19.0, 45.0, 15.0 ],
+					"presentation_rect" : [ 5.0, 19.0, 45.0, 16.0 ],
 					"triangle" : 0,
 					"varname" : "fadein"
 				}
@@ -197,7 +261,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 284.5, 50.0, 182.0, 32.0 ],
+					"patching_rect" : [ 284.5, 50.0, 182.0, 33.0 ],
 					"text" : "receive samplers"
 				}
 
@@ -431,7 +495,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 255.0, 61.0, 31.0 ],
+					"patching_rect" : [ 225.0, 255.0, 61.0, 32.0 ],
 					"text" : "prepend replace"
 				}
 
@@ -640,7 +704,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 103.795166, 325.0, 80.0, 19.0 ],
+					"patching_rect" : [ 103.795166, 325.0, 80.0, 20.0 ],
 					"text" : "regexp .+/(.+)"
 				}
 
@@ -931,6 +995,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1002,6 +1075,33 @@
 					"hidden" : 0,
 					"midpoints" : [ 463.5, 357.5, 234.5, 357.5 ],
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}
@@ -1112,8 +1212,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oi.autovarname.js",
-				"bootpath" : "/Users/tiago/Documents/Max/Packages/OpenInstruments/javascript",
-				"patcherrelativepath" : "../../../../../Documents/Max/Packages/OpenInstruments/javascript",
+				"bootpath" : "/Program Files (x86)/Sonorium-1.1 for Windows/javascript",
+				"patcherrelativepath" : "../../../Program Files (x86)/Sonorium-1.1 for Windows/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
