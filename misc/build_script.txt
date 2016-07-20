@@ -1,4 +1,5 @@
 open thispatcher
+appicon "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/media/pics/sonorium_icon.icns"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/main/graphical_interface.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/MIDI/Main_MIDIout.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/MIDI/note_interface.maxpat"
@@ -7,6 +8,7 @@ include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/M
 patcher "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/other/3Dgrid_visualizer.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/other/3Dmapper.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/other/debug-print.maxpat"
+include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/other/About.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/Sampler/Main_sampler.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/Sampler/polySampler.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/Sampler/sampler_interface.maxpat"
