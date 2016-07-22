@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 606.0, 806.0 ],
+		"rect" : [ 4.0, 45.0, 606.0, 806.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -106,7 +106,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -453,7 +453,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_sys @invisible 1 @autorestore 0",
-					"varname" : "u979031561"
+					"varname" : "u308021025"
 				}
 
 			}
@@ -525,7 +525,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_skeleton @invisible 1 @autorestore 0",
-					"varname" : "u736031540"
+					"varname" : "u548020485"
 				}
 
 			}
@@ -543,7 +543,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1546,7 +1546,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1790,7 +1790,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::proeasy @invisible 1 @autorestore 0 @initial 1",
-					"varname" : "u912031559"
+					"varname" : "u550034449"
 				}
 
 			}
@@ -1826,13 +1826,13 @@
 					"presentation_rect" : [ 361.0, 1237.0, 150.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_type" : 0,
+							"parameter_longname" : "Volume",
 							"parameter_shortname" : "Volume",
-							"parameter_longname" : "Volume"
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -2146,7 +2146,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 0.258824, 0.517647, 0.709804, 1.0 ],
 					"id" : "obj-292",
-					"items" : [ "AU DLS Synth 1", ",", "to SONORIUM 1", ",", "to SONORIUM 2", ",", "from Max 1", ",", "from Max 2", ",", "to SONORIUM 1", ",", "to SONORIUM 2", ",", "to SONORIUM 1", ",", "to SONORIUM 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver IAC Bus 1", ",", "from Max 1", ",", "from Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -2452,11 +2452,11 @@
 , 			{
 				"box" : 				{
 					"annotation" : "\"grid_apply\" : aplicar alterações na grelha virtual (seta tarefa pode demorar bast ante tempo) / apply changes made to the virtual grid (this may take a while)",
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.937255, 0.611765, 0.258824, 0.5 ],
 					"bgovercolor" : [ 0.2, 0.8, 0.6, 0.5 ],
-					"bordercolor" : [ 0.2, 0.8, 0.6, 1.0 ],
-					"borderoncolor" : [ 0.2, 0.8, 0.6, 1.0 ],
-					"fontface" : 1,
+					"bordercolor" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
+					"borderoncolor" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
+					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-263",
@@ -3065,7 +3065,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 525.75, 1727.5, 82.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 497.343781, 825.000061, 52.0, 18.0 ],
+					"presentation_rect" : [ 497.343781, 854.000061, 52.0, 18.0 ],
 					"text" : "threshold"
 				}
 
@@ -3082,7 +3082,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 533.75, 1667.5, 101.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 484.343781, 851.500061, 65.0, 18.0 ],
+					"presentation_rect" : [ 484.343781, 831.500061, 65.0, 18.0 ],
 					"text" : "interpolation"
 				}
 
@@ -3107,7 +3107,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 475.75, 1727.5, 50.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 549.0, 826.000061, 38.0, 17.0 ],
+					"presentation_rect" : [ 549.0, 855.000061, 38.0, 17.0 ],
 					"tricolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"varname" : "number[7]"
 				}
@@ -3133,7 +3133,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 475.75, 1667.5, 57.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 549.0, 851.500061, 37.0, 17.0 ],
+					"presentation_rect" : [ 549.0, 831.500061, 38.0, 17.0 ],
 					"tricolor" : [ 0.2, 0.8, 0.6, 1.0 ],
 					"varname" : "flonum[2]"
 				}
@@ -3198,7 +3198,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::proeasy @invisible 1 @autorestore 0 @initial 1",
-					"varname" : "u731031636"
+					"varname" : "u315034425"
 				}
 
 			}
@@ -3236,7 +3236,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::proeasy @invisible 1 @autorestore 0 @initial 1",
-					"varname" : "u476031587"
+					"varname" : "u583034426"
 				}
 
 			}
@@ -3282,7 +3282,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3413,7 +3413,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3816,7 +3816,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4181,7 +4181,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4546,7 +4546,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4945,7 +4945,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_spacing @invisible 1 @autorestore 0",
-									"varname" : "u288031674"
+									"varname" : "u446021249"
 								}
 
 							}
@@ -4982,7 +4982,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_apply @invisible 1 @autorestore 0",
-									"varname" : "u554031643"
+									"varname" : "u116020756"
 								}
 
 							}
@@ -5060,7 +5060,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_z_size @invisible 1 @autorestore 0",
-									"varname" : "u867031700"
+									"varname" : "u874020623"
 								}
 
 							}
@@ -5084,7 +5084,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_y_size @invisible 1 @autorestore 0",
-									"varname" : "u411031668"
+									"varname" : "u496020608"
 								}
 
 							}
@@ -5108,7 +5108,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::grid_x_size @invisible 1 @autorestore 0",
-									"varname" : "u321031670"
+									"varname" : "u717020621"
 								}
 
 							}
@@ -5152,7 +5152,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -5324,7 +5324,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -5394,7 +5394,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::bounds_area @invisible 1 @autorestore 0",
-													"varname" : "u938031756"
+													"varname" : "u921020222"
 												}
 
 											}
@@ -5431,7 +5431,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::kinect_fov_v @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u209047009"
+													"varname" : "u279020218"
 												}
 
 											}
@@ -5719,7 +5719,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -5789,7 +5789,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::bounds_area @invisible 1 @autorestore 0",
-													"varname" : "u776031638"
+													"varname" : "u230020285"
 												}
 
 											}
@@ -5826,7 +5826,7 @@
 													}
 ,
 													"text" : "pattr @bindto parent::parent::kinect_fov_h @invisible 1 @autorestore 0 @thru 0",
-													"varname" : "u871031658"
+													"varname" : "u030020185"
 												}
 
 											}
@@ -6120,7 +6120,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::bounds_depth_max @invisible 1 @autorestore 0",
-									"varname" : "u875031714"
+									"varname" : "u152000899"
 								}
 
 							}
@@ -6173,7 +6173,7 @@
 									}
 ,
 									"text" : "pattr @bindto parent::bounds_depth_min @invisible 1 @autorestore 0",
-									"varname" : "u981031734"
+									"varname" : "u233021022"
 								}
 
 							}
@@ -6682,7 +6682,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_sampler @invisible 1 @autorestore 0",
-					"varname" : "u621031720"
+					"varname" : "u221020216"
 				}
 
 			}
@@ -6719,7 +6719,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_midi @invisible 1 @autorestore 0",
-					"varname" : "u220031729"
+					"varname" : "u313020279"
 				}
 
 			}
@@ -6757,7 +6757,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_port @invisible 1 @autorestore 0",
-					"varname" : "u605031739"
+					"varname" : "u400020295"
 				}
 
 			}
@@ -6795,7 +6795,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_grid @invisible 1 @autorestore 0",
-					"varname" : "u676031759"
+					"varname" : "u866020296"
 				}
 
 			}
@@ -6828,7 +6828,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -7143,7 +7143,7 @@
 					}
 ,
 					"text" : "pattr @bindto parent::dataout::output_osc_IP @invisible 1 @autorestore 0",
-					"varname" : "u833031750"
+					"varname" : "u137020292"
 				}
 
 			}
@@ -7185,7 +7185,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
