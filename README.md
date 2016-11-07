@@ -7,6 +7,9 @@ This software was developed with MaxMSP 6.1.9 (32-bit mode)
 
 CHANGE LOG:
 
+version 1.2.2
+- fixed issue#73 (https://github.com/Digitopia/Sonorium/issues/73), which caused several 'open dialog' windows to pop-up
+
 version 1.2.1
  - made installer (.dmg) that you can find in releases (bare in mind that you still have to install all dependencies manually)
  - embedded documentation into App Menu
