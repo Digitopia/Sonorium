@@ -1,4 +1,4 @@
-Sonorium — version 1.2.1 (06.2016) for OSX
+Sonorium — version 1.2.2 (06.2016) for OSX
 
 Content of Interactive Installation held at Casa da Música
 To download the compiled app go to the releases tab.
