@@ -1,5 +1,6 @@
 open thispatcher
 appicon "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/media/pics/sonorium_icon.icns"
+include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/media/pics/CdM_Digitopia-01.png"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/main/graphical_interface.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/MIDI/Main_MIDIout.maxpat"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/patchers/MIDI/note_interface.maxpat"
@@ -21,4 +22,5 @@ include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/javascript
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/javascript/jitsketch_talk.js"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/javascript/matrix.fill2Dgrid.js"
 include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/javascript/rad2deg.js"
+include "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/javascript/stringlength.js"
 folder "Macintosh HD:/Users/tiago/PinhoRepos/DigitopiaRepos/Sonorium/media/pics"
