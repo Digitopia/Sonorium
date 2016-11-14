@@ -7,7 +7,7 @@
 				"name" : "JoaoMenezes_soundscape",
 				"data" : 				{
 					"info_text" : [ 4, "x", 4, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
-					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium-1.2/sonorium_presets/01_sonorium_presets.jxf" ],
+					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium.app/Contents/sonorium_presets/01_sonorium_presets.jxf" ],
 					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
 					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
 					"ARCorrection::kinect_dim" : [ 560, 406 ],
@@ -38,6 +38,7 @@
 					"gui::arc_top" : [ 30 ],
 					"gui::arc_bottom" : [ 450 ],
 					"gui::rc_port" : [ 7001 ],
+					"gui::dsp_status" : [  ],
 					"gui::grid_z_size" : [ 4 ]
 				}
 
@@ -48,12 +49,12 @@
 				"name" : "PedroAugusto_soundscape",
 				"data" : 				{
 					"info_text" : [ 4, "x", 4, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
-					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium-1.2/sonorium_presets/02_sonorium_presets.jxf" ],
+					"2Dmatrix_path" : [ "/Applications/Sonorium.app/Contents/sonorium_presets/02_sonorium_presets.jxf" ],
 					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
 					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
-					"ARCorrection::kinect_dim" : [ 560, 406 ],
+					"ARCorrection::kinect_dim" : [ 600, 435 ],
 					"dataout::output_presets" : [ 1 ],
-					"gui::bounds_src_dim" : [ 560, 406 ],
+					"gui::bounds_src_dim" : [ 600, 435 ],
 					"gui::bounds_src_coordinates" : [ 40, 30, 600, 450 ],
 					"gui::kinect_fov_v" : [ 43 ],
 					"gui::kinect_fov_h" : [ 57 ],
@@ -73,12 +74,13 @@
 					"gui::grid_gain" : [ 0.6 ],
 					"gui::grid_threshold" : [ 0 ],
 					"gui::grid_slice_preview" : [ "overall" ],
-					"gui::midi_device" : [ "from Max 1" ],
+					"gui::midi_device" : [ "to Max 1" ],
 					"gui::arc_left" : [ 40 ],
 					"gui::arc_right" : [ 600 ],
 					"gui::arc_top" : [ 30 ],
 					"gui::arc_bottom" : [ 450 ],
 					"gui::rc_port" : [ 7001 ],
+					"gui::dsp_status" : [ 1 ],
 					"gui::grid_z_size" : [ 4 ]
 				}
 
@@ -89,7 +91,7 @@
 				"name" : "OscarRodrigues_soundscape",
 				"data" : 				{
 					"info_text" : [ 4, "x", 4, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
-					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium-1.2/sonorium_presets/03_sonorium_presets.jxf" ],
+					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium.app/Contents/sonorium_presets/03_sonorium_presets.jxf" ],
 					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
 					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
 					"ARCorrection::kinect_dim" : [ 560, 406 ],
@@ -120,6 +122,7 @@
 					"gui::arc_top" : [ 30 ],
 					"gui::arc_bottom" : [ 450 ],
 					"gui::rc_port" : [ 7001 ],
+					"gui::dsp_status" : [  ],
 					"gui::grid_z_size" : [ 4 ]
 				}
 
@@ -130,7 +133,7 @@
 				"name" : "JoseGomes_soundscape",
 				"data" : 				{
 					"info_text" : [ 4, "x", 5, "x", 1, "=", "sixteen", "sounds", "with", "no", "height" ],
-					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium-1.2/sonorium_presets/04_sonorium_presets.jxf" ],
+					"2Dmatrix_path" : [ "Macintosh HD:/Applications/Sonorium.app/Contents/sonorium_presets/04_sonorium_presets.jxf" ],
 					"3DVHGrid::area_mm" : [ 2714.778564, 1969.552368 ],
 					"ARCorrection::kinect_coordinates" : [ 40, 30, 600, 450 ],
 					"ARCorrection::kinect_dim" : [ 560, 406 ],
@@ -161,6 +164,7 @@
 					"gui::arc_top" : [ 30 ],
 					"gui::arc_bottom" : [ 450 ],
 					"gui::rc_port" : [ 7001 ],
+					"gui::dsp_status" : [  ],
 					"gui::grid_z_size" : [ 5 ]
 				}
 
