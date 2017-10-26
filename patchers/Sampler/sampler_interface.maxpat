@@ -8,7 +8,11 @@
 			"architecture" : "x86"
 		}
 ,
+<<<<<<< HEAD
 		"rect" : [ 0.0, 45.0, 960.0, 458.0 ],
+=======
+		"rect" : [ 937.0, 45.0, 757.0, 577.0 ],
+>>>>>>> version-1.2
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -120,8 +124,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
+<<<<<<< HEAD
 									"patching_rect" : [ 50.0, 263.0, 32.5, 20.0 ],
 									"text" : "> 1"
+=======
+									"patching_rect" : [ 50.0, 173.0, 32.5, 20.0 ],
+									"text" : "> 0"
+>>>>>>> version-1.2
 								}
 
 							}
@@ -266,7 +275,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p filter_noMessage"
+					"text" : "p filter_noMessage",
+					"varname" : "filter_noMessage"
 				}
 
 			}
@@ -855,6 +865,7 @@
 					}
 ,
 					"text" : "autopattr",
+<<<<<<< HEAD
 					"varname" : "u426011194"
 				}
 
@@ -870,6 +881,9 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 56.0, 164.0, 32.5, 18.0 ],
 					"text" : "t b s"
+=======
+					"varname" : "u701000343"
+>>>>>>> version-1.2
 				}
 
 			}
@@ -1469,7 +1483,7 @@
 					"patching_rect" : [ 56.0, 58.5, 100.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 100.0, 50.0 ],
-					"types" : [ "AIFF", "WAV" ]
+					"types" : [ "AIFF", "WAVE" ]
 				}
 
 			}
@@ -1665,6 +1679,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1684,6 +1699,8 @@
 			}
 , 			{
 				"patchline" : 				{
+=======
+>>>>>>> version-1.2
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1723,7 +1740,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
@@ -1853,7 +1870,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 0 ]

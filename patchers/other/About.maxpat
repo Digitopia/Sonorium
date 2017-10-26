@@ -1047,7 +1047,7 @@
 					"patching_rect" : [ 123.5, 72.5, 180.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 123.5, 57.5, 180.0, 20.0 ],
-					"text" : "version 1.2.2 (11.2016) for OSX"
+					"text" : "version 1.2.3 (11.2016) for OSX"
 				}
 
 			}
@@ -1230,14 +1230,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CdM_Digitopia-01.png",
-				"bootpath" : "/Users/Tiago/PinhoRepos/Sonorium/media/pics",
+				"bootpath" : "/Users/Tiago/PinhoRepos/DigitopiaRepos/Sonorium/media/pics",
 				"patcherrelativepath" : "../../media/pics",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sonorium_icon.png",
-				"bootpath" : "/Users/Tiago/PinhoRepos/Sonorium/media/pics",
+				"bootpath" : "/Users/Tiago/PinhoRepos/DigitopiaRepos/Sonorium/media/pics",
 				"patcherrelativepath" : "../../media/pics",
 				"type" : "PNG ",
 				"implicit" : 1
