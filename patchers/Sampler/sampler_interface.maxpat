@@ -827,7 +827,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u947010783"
+					"varname" : "u596020044"
 				}
 
 			}
@@ -1441,7 +1441,7 @@
 					"patching_rect" : [ 56.0, 48.5, 100.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 100.0, 50.0 ],
-					"types" : [ "AIFF", "WAV" ]
+					"types" : [ "AIFF", "WAVE" ]
 				}
 
 			}
