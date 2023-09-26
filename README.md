@@ -1,3 +1,6 @@
+# DEPRECATED
+
+
 Sonorium — version 1.2.2 (06.2016) for OSX
 
 Content of Interactive Installation held at Casa da Música
